@@ -1,0 +1,932 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html>
+  <head><link rel="shortcut icon" href="../favicon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="save" content="history" />
+    <title>TcpPortAlias Enumeration</title>
+    <link rel="stylesheet" type="text/css" href="../styles/lightweight.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <link rel="stylesheet" type="text/css" href="../styles/lw-code.css" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <script type="text/javascript" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" src="../scripts/languageSelector.js"> </script>
+    <meta name="container" content="Walter.BOM" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="file" content="T-Walter.BOM.TcpPortAlias" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <meta name="guid" content="T-Walter.BOM.TcpPortAlias" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt" />
+    <xml xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <MSHelp:Attr Name="AssetID" Value="T:Walter.BOM.TcpPortAlias" />
+      <MSHelp:TOCTitle Title="TcpPortAlias Enumeration" />
+      <MSHelp:RLTitle Title="TcpPortAlias Enumeration (Walter.BOM)" />
+      <MSHelp:Keyword Index="A" Term="T:Walter.BOM.TcpPortAlias" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.UserDefined" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.None" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.Echo_7" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.FTP1_20" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.FTP2_21" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.SSH_22" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.Telnet_23" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.SMTP_25" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.MSGIPC_29" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.IPSec1_50" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.IPSec2_51" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.DNS_53" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.Finger_79" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.HTTP_80" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.POP3_110" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.NNTP_119" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.NetBIOS_135" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.NetBIOS_136" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.NetBIOS_137" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.NetBIOS_138" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.NetBIOS_139" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.IMAP_143" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.SNMP_161" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.SNMP_162" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.LDAP_389" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.SSL_443" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.FTPSSL_989" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.FTPTLS_990" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.IMAP_993" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.TSQL_1433" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.Oracle_1521" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.OpenEdge_20931" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.Sybase_2638" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.RDP_3389" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.MYSQL_3306" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.WAC_6516" />
+      <MSHelp:Keyword Index="A" Term="F:Walter.BOM.TcpPortAlias.Tomcat_8443" />
+      <MSHelp:Keyword Index="A" Term="frlrfWalterBOMTcpPortAliasClassTopic" />
+      <MSHelp:Keyword Index="K" Term="TcpPortAlias enumeration" />
+      <MSHelp:Keyword Index="K" Term="Walter.BOM.TcpPortAlias enumeration" />
+      <MSHelp:Keyword Index="K" Term="UserDefined enumeration member" />
+      <MSHelp:Keyword Index="K" Term="None enumeration member" />
+      <MSHelp:Keyword Index="K" Term="Echo_7 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="FTP1_20 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="FTP2_21 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="SSH_22 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="Telnet_23 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="SMTP_25 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="MSGIPC_29 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="IPSec1_50 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="IPSec2_51 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="DNS_53 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="Finger_79 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="HTTP_80 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="POP3_110 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="NNTP_119 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="NetBIOS_135 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="NetBIOS_136 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="NetBIOS_137 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="NetBIOS_138 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="NetBIOS_139 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="IMAP_143 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="SNMP_161 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="SNMP_162 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="LDAP_389 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="SSL_443 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="FTPSSL_989 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="FTPTLS_990 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="IMAP_993 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="TSQL_1433 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="Oracle_1521 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="OpenEdge_20931 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="Sybase_2638 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="RDP_3389 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="MYSQL_3306 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="WAC_6516 enumeration member" />
+      <MSHelp:Keyword Index="K" Term="Tomcat_8443 enumeration member" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.UserDefined" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.None" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.Echo_7" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.FTP1_20" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.FTP2_21" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.SSH_22" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.Telnet_23" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.SMTP_25" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.MSGIPC_29" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.IPSec1_50" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.IPSec2_51" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.DNS_53" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.Finger_79" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.HTTP_80" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.POP3_110" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.NNTP_119" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.NetBIOS_135" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.NetBIOS_136" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.NetBIOS_137" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.NetBIOS_138" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.NetBIOS_139" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.IMAP_143" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.SNMP_161" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.SNMP_162" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.LDAP_389" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.SSL_443" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.FTPSSL_989" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.FTPTLS_990" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.IMAP_993" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.TSQL_1433" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.Oracle_1521" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.OpenEdge_20931" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.Sybase_2638" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.RDP_3389" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.MYSQL_3306" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.WAC_6516" />
+      <MSHelp:Keyword Index="F" Term="Walter.BOM.TcpPortAlias.Tomcat_8443" />
+      <MSHelp:Attr Name="HelpPriority" Value="2" />
+      <MSHelp:Attr Name="APIType" Value="Managed" />
+      <MSHelp:Attr Name="APILocation" Value="Walter.BOM.dll" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.UserDefined" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.None" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.Echo_7" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.FTP1_20" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.FTP2_21" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.SSH_22" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.Telnet_23" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.SMTP_25" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.MSGIPC_29" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.IPSec1_50" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.IPSec2_51" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.DNS_53" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.Finger_79" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.HTTP_80" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.POP3_110" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.NNTP_119" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.NetBIOS_135" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.NetBIOS_136" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.NetBIOS_137" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.NetBIOS_138" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.NetBIOS_139" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.IMAP_143" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.SNMP_161" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.SNMP_162" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.LDAP_389" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.SSL_443" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.FTPSSL_989" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.FTPTLS_990" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.IMAP_993" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.TSQL_1433" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.Oracle_1521" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.OpenEdge_20931" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.Sybase_2638" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.RDP_3389" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.MYSQL_3306" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.WAC_6516" />
+      <MSHelp:Attr Name="APIName" Value="Walter.BOM.TcpPortAlias.Tomcat_8443" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="DevLang" Value="VB" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="Abstract" Value="Named ports that are frequently attacked using the port name in a way that they are easily identified by service [Name]_[Port] naming standard" />
+      <MSHelp:Attr Name="AssemblyVersion" Value="" />
+    </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
+  <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
+  <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
+            <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
+
+            <div id="divSearchOpts" class="SearchOpts" style="height: 95px; display: none;">
+                <div class="SearchOptsInner">
+                    <img class="TOCLink" onclick="javascript: ShowHideSearch(false);" src="../Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;" />
+                    <span class="Title">Keyword(s) to search:</span>
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="txtSearchText" type="text" style="width: 95.5%;" onkeypress="javascript: return OnSearchTextKeyPress(event);" />
+                </div>
+                <div class="SearchOptsInner">
+                    <input id="chkSortByTitle" type="checkbox" />&nbsp;Sort results by title
+                    <input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+                </div>
+            </div>
+
+            <div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+                <img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+                     src="../Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;" />
+                <span class="Title">Keyword Index</span>
+            </div>
+
+            <div id="divNavOpts" class="NavOpts" style="height: 28px;">
+                <!--<img class="TOCLink" onclick="javascript: SyncTOC();" src="../SyncTOC.png"
+                     height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />-->
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+                     src="../ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+                <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+                     src="../CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+                <!--<img class="TOCLink" onclick="javascript: alert('Please make sure to use either Index.aspx or Index.php to enable the Keyword Index feature.');"
+                     src="../Index.png" height="24" width="24" alt="Keyword Index" title="Keyword Index" />-->
+                <img class="TOCLink" onclick="javascript: ShowHideSearch(true);"
+                     src="../Search.png" height="24" width="24" alt="Search" title="Search" />
+                <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+                     src="../Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+                <a href="#" onclick="javascript: window.history.go(-1); return false;">
+                    <img class="TOCLink" style="float: right;"
+                         src="../Back.png" height="24" width="24" alt="Previous page" title="Previous page" />
+                </a>
+            </div>
+
+            <div class="Tree" id="divSearchResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divIndexResults" style="display: none;"
+                 onselectstart="javascript: return false;">
+            </div>
+
+            <div class="Tree" id="divTree" onselectstart="javascript: return false;">
+              <div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Microsoft.Extensions.DependencyInjection.htm" target="_self">Microsoft.Extensions.DependencyInjection Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.htm" target="_self">ServiceCollectionExtension Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-System.Text.htm" target="_self">System.Text Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-System.Text.StringExtensions.htm" target="_self">StringExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.htm" target="_self">Walter Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.DIContainer.htm" target="_self">DIContainer Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.BOM.htm" target="_self">Walter.BOM Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.AbuseReportCommand.htm" target="_self">AbuseReportCommand Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.AbuseReportCommand.DataPayloads.htm" target="_self">AbuseReportCommand.DataPayloads Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.AbuseReportCommand.Filter.htm" target="_self">AbuseReportCommand.Filter Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.AbuseWorkflows.htm" target="_self">AbuseWorkflows Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.AssemblyNotFoundException.htm" target="_self">AssemblyNotFoundException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.AuditLog.htm" target="_self">AuditLog Structure</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.BlacklistLevelHoneyPotPortAccessLevel.htm" target="_self">BlacklistLevelHoneyPotPortAccessLevel Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.BlacklistStatusCommand.htm" target="_self">BlacklistStatusCommand Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.BlaklistSource.htm" target="_self">BlaklistSource Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.BlasklistDetail.htm" target="_self">BlasklistDetail Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.BlockedUserRequest.htm" target="_self">BlockedUserRequest Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.BlockStatusState.htm" target="_self">BlockStatusState Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ContentTypes.htm" target="_self">ContentTypes Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.CookieName.htm" target="_self">CookieName Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.DataLossException.htm" target="_self">DataLossException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.DiskSecurityViolationException.htm" target="_self">DiskSecurityViolationException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.EntryChangeType.htm" target="_self">EntryChangeType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.EntryNotFoundException.htm" target="_self">EntryNotFoundException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.EventRecordedEventArgs.htm" target="_self">EventRecordedEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ExceptionLogging.htm" target="_self">ExceptionLogging Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.FeaturesDataSource.htm" target="_self">FeaturesDataSource Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.FirewallAllowReasons.htm" target="_self">FirewallAllowReasons Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" target="_self">FirewallBlockReasonAuditEntry Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.FirewallBlockReasons.htm" target="_self">FirewallBlockReasons Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.FireWallContexts.htm" target="_self">FireWallContexts Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.FireWallReportContentFeatures.htm" target="_self">FireWallReportContentFeatures Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.FireWallReportType.htm" target="_self">FireWallReportType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.GlossarayExtensions.htm" target="_self">GlossarayExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.GuardAction.htm" target="_self">GuardAction Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.GuardResponse.htm" target="_self">GuardResponse Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.HeaderName.htm" target="_self">HeaderName Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.HelpTopicAttribute.htm" target="_self">HelpTopicAttribute Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IClock.htm" target="_self">IClock Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IControlledDiskIO.htm" target="_self">IControlledDiskIO Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IDBConnection.htm" target="_self">IDBConnection Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IDevice.htm" target="_self">IDevice Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IDeviceSignature.htm" target="_self">IDeviceSignature Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IDomain.htm" target="_self">IDomain Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IExceptionConsole.htm" target="_self">IExceptionConsole Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IExceptionConsoleData.htm" target="_self">IExceptionConsoleData Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IExceptionItem.htm" target="_self">IExceptionItem Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IKeyRingKey.htm" target="_self">IKeyRingKey Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ILicense.htm" target="_self">ILicense Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ILicensedDomain.htm" target="_self">ILicensedDomain Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ILicenseKey-1.htm" target="_self">ILicenseKey(T) Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.IncidentAssertType.htm" target="_self">IncidentAssertType Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.InterceptLocations.htm" target="_self">InterceptLocations Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IPAddressConverter.htm" target="_self">IPAddressConverter Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IParse-1.htm" target="_self">IParse(T) Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IParse-2.htm" target="_self">IParse(T1, T2) Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IPopulate-1.htm" target="_self">IPopulate(T) Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IRepositoryStorageLocation.htm" target="_self">IRepositoryStorageLocation Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IToDoItem.htm" target="_self">IToDoItem Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ITryParse-1.htm" target="_self">ITryParse(T) Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.IUserScreen.htm" target="_self">IUserScreen Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.KnownIntentions.htm" target="_self">KnownIntentions Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.LicensedDomain.htm" target="_self">LicensedDomain Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.LicenseStatus.htm" target="_self">LicenseStatus Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.LicenseViolationErrorException-1.htm" target="_self">LicenseViolationErrorException(T) Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.LinkType.htm" target="_self">LinkType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Location.htm" target="_self">Location Structure</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.LogEvents.htm" target="_self">LogEvents Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ManagementTypes.htm" target="_self">ManagementTypes Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.NotImplementedByDesignException.htm" target="_self">NotImplementedByDesignException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.PropertyDoesNotAllowNullException.htm" target="_self">PropertyDoesNotAllowNullException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.RecoveryData.htm" target="_self">RecoveryData Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.RecoveryType.htm" target="_self">RecoveryType Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ResourceNotFoundException.htm" target="_self">ResourceNotFoundException Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ResponceExpected.htm" target="_self">ResponceExpected Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ScreenOrientations.htm" target="_self">ScreenOrientations Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.SearchEngine.htm" target="_self">SearchEngine Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ServiceInfo.htm" target="_self">ServiceInfo Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.ShouldSerializeContractResolver.htm" target="_self">ShouldSerializeContractResolver Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.SingletonException-1.htm" target="_self">SingletonException(T) Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.StorageLocations.htm" target="_self">StorageLocations Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.TcpPortAlias.htm" target="_self">TcpPortAlias Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.WorkflowReport.htm" target="_self">WorkflowReport Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.BOM.Data.htm" target="_self">Walter.BOM.Data Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Data.InfoCard.htm" target="_self">InfoCard Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.BOM.ErrorCodes.htm" target="_self">Walter.BOM.ErrorCodes Namespace</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ErrorCodes.CodingErrors.htm" target="_self">CodingErrors Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ErrorCodes.ConfigurationErrors.htm" target="_self">ConfigurationErrors Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ErrorCodes.ConfigurationTasks.htm" target="_self">ConfigurationTasks Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ErrorCodes.RuntimeConfigurationErrors.htm" target="_self">RuntimeConfigurationErrors Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ErrorCodes.RunTimeErrors.htm" target="_self">RunTimeErrors Enumeration</a>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.ErrorCodes.SecurityCode.htm" target="_self">SecurityCode Enumeration</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.BOM.Geo.htm" target="_self">Walter.BOM.Geo Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.GeoExtensionMethods.htm" target="_self">GeoExtensionMethods Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeItem">
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="T-Walter.BOM.Geo.GeoLocation.htm" target="_self">GeoLocation Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.GeoLocationMapping.htm" target="_self">GeoLocationMapping Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.IGeoBuffer.htm" target="_self">IGeoBuffer Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.IGeoResolver.htm" target="_self">IGeoResolver Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.IISPResolver.htm" target="_self">IISPResolver Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.ILatLongResolver.htm" target="_self">ILatLongResolver Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.IMapLocation.htm" target="_self">IMapLocation Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.InMemmoryGeoBuffer.htm" target="_self">InMemmoryGeoBuffer Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.LocationExtensionMethods.htm" target="_self">LocationExtensionMethods Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.SimpleLatLong.htm" target="_self">SimpleLatLong Structure</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Geo.SimpleMapLocation.htm" target="_self">SimpleMapLocation Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.BOM.Violations.htm" target="_self">Walter.BOM.Violations Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Violations.IContentSecurityPolicyViolation.htm" target="_self">IContentSecurityPolicyViolation Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.htm" target="_self">IContentSecurityPolicyViolationsReport Interface</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.Casts.htm" target="_self">Walter.Casts Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.Casts.ObjectExtensions.htm" target="_self">ObjectExtensions Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.IO.htm" target="_self">Walter.IO Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IO.IDiskChanges.htm" target="_self">IDiskChanges Interface</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IO.IDiskGuard.htm" target="_self">IDiskGuard Interface</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.IO.CommandLine.htm" target="_self">Walter.IO.CommandLine Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IO.CommandLine.ProcessImage.htm" target="_self">ProcessImage Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="N-Walter.IO.EventArguments.htm" target="_self">Walter.IO.EventArguments Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IO.EventArguments.DiskManipulationEventArgs.htm" target="_self">DiskManipulationEventArgs Class</a>
+<div class="Hidden">
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="T-Walter.IO.EventArguments.ServiceConfigurationException.htm" target="_self">ServiceConfigurationException Class</a>
+<div class="Hidden">
+</div>
+</div>
+</div>
+</div>
+
+            </div>
+
+        </div>
+
+        <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+        
+        <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
+          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
+            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
+              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+          <!-- Content Starts Here -->
+          <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+      <div class="content">
+        <div class="topicContainer">
+          <div class="topic">
+            <p class="majorTitle" />
+            <h1 class="title">TcpPortAlias Enumeration</h1>
+            <div id="mainSection">
+              <div id="mainBody">
+                <div class="summary">Named ports that are frequently attacked using the port name in a way that they are easily identified by service [Name]_[Port] naming standard</div>
+                <p />
+    <b>Namespace:</b> 
+   <a href="N-Walter.BOM.htm">Walter.BOM</a><br />
+    <b>Assembly:</b>
+   <span sdata="assembly">Walter.BOM</span> (in Walter.BOM.dll)<div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Syntax</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="syntaxSection"><!----></a><div class="CodeSnippetContainer"><div class="CodeSnippetContainerTabs"><div class="CodeSnippetContainerTabLeft"><!----></div><div class="CodeSnippetContainerTabFirst CSharpTab" id="CSharpTabId" style="background:white;border-bottom-color:white"><a href="javascript:setActiveTab('CodeSnippetContainerCode','CSharpCode','CSharpTabId');" title="C#">C#</a></div><div class="CodeSnippetContainerTab VisualBasicTab" id="VisualBasicTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','VisualBasicCode','VisualBasicTabId');" title="Visual Basic">VB</a></div><div class="CodeSnippetContainerTab ManagedCPlusPlusTab" id="ManagedCPlusPlusTabId"><a href="javascript:setActiveTab('CodeSnippetContainerCode','ManagedCPlusPlusCode','ManagedCPlusPlusTabId');" title="Visual C++">C++</a></div><div class="CodeSnippetContainerTabRight"><!----></div></div><div class="CodeSnippetContainerCodeCollection"><div class="CodeSnippetToolBar"><div class="CodeSnippetToolBarText" /></div><div class="CodeSnippetContainerCode CSharpCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">enum</span> <span class="identifier">TcpPortAlias</span></pre></div><div class="CodeSnippetContainerCode VisualBasicCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">Public</span> <span class="keyword">Enumeration</span> <span class="identifier">TcpPortAlias</span></pre></div><div class="CodeSnippetContainerCode ManagedCPlusPlusCode"><pre xml:space="preserve" class="libCScode"><span class="keyword">public</span> <span class="keyword">enum class</span> <span class="identifier">TcpPortAlias</span></pre></div></div></div></div><div id="enumerationSection"><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Members</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="membersSection"><!----></a><table class="members" id="memberList" frame="lhs" cellpadding="2"><tr><th class="iconColumn" /><th class="nameColumn">Member name</th><th class="descriptionColumn">Description</th></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.UserDefined"><span class="selflink">UserDefined</span></td><td>
+   A user defined port
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.None"><span class="selflink">None</span></td><td>
+   indicated that the value was not configured
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.Echo_7"><span class="selflink">Echo_7</span></td><td>
+   Ping - port 7
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.FTP1_20"><span class="selflink">FTP1_20</span></td><td>
+   File transfer protocol - port 20
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.FTP2_21"><span class="selflink">FTP2_21</span></td><td>
+   File transfer protocol - port 21
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.SSH_22"><span class="selflink">SSH_22</span></td><td>
+   Secure Shell port 22
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.Telnet_23"><span class="selflink">Telnet_23</span></td><td>
+   Telnet -port 23
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.SMTP_25"><span class="selflink">SMTP_25</span></td><td>
+   Simple Mail Transfer Protocol - port 25
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.MSGIPC_29"><span class="selflink">MSGIPC_29</span></td><td>
+   Internet Cache Protocol (ICP)
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.IPSec1_50"><span class="selflink">IPSec1_50</span></td><td>
+   Internet Protocol Security - Port 50
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.IPSec2_51"><span class="selflink">IPSec2_51</span></td><td>
+   Internet Protocol Security - Port 51
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.DNS_53"><span class="selflink">DNS_53</span></td><td>
+   Domain Name System - Port 53
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.Finger_79"><span class="selflink">Finger_79</span></td><td>
+   The Finger User Information Protocol
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.HTTP_80"><span class="selflink">HTTP_80</span></td><td>
+   HyperText Transfer Protocol (do not use when you expose port 80)
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.POP3_110"><span class="selflink">POP3_110</span></td><td>
+   Post Office Protocol
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.NNTP_119"><span class="selflink">NNTP_119</span></td><td>
+   Network News Transport Protocol -Port 119
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.NetBIOS_135"><span class="selflink">NetBIOS_135</span></td><td>
+   NetBIOS (RPC) - Port 135
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.NetBIOS_136"><span class="selflink">NetBIOS_136</span></td><td>
+   NetBIOS (Profile Name Service)- Port 136
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.NetBIOS_137"><span class="selflink">NetBIOS_137</span></td><td>
+   NetBIOS (CIFS)- Port 137
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.NetBIOS_138"><span class="selflink">NetBIOS_138</span></td><td>
+   NetBIOS - Port 138
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.NetBIOS_139"><span class="selflink">NetBIOS_139</span></td><td>
+   NetBIOS - Port 139
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.IMAP_143"><span class="selflink">IMAP_143</span></td><td>
+   Internet Message Access Protocol - Port 134
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.SNMP_161"><span class="selflink">SNMP_161</span></td><td>
+   Simple Network Management Protocol - Port 161
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.SNMP_162"><span class="selflink">SNMP_162</span></td><td>
+   Simple Network Management Protocol - Port 162
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.LDAP_389"><span class="selflink">LDAP_389</span></td><td>
+   Lightweight Directory Access Protocol - Port 389
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.SSL_443"><span class="selflink">SSL_443</span></td><td>
+   HTTP with Secure Sockets Layer - Port 443
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.FTPSSL_989"><span class="selflink">FTPSSL_989</span></td><td>
+   FTP over Secure Socket Layer (SSL) - Port 989
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.FTPTLS_990"><span class="selflink">FTPTLS_990</span></td><td>
+   FTP over TLS Transport Layer Security (TLS)- Port 990
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.IMAP_993"><span class="selflink">IMAP_993</span></td><td>
+   Internet Messaging Protocol IMAP encrypted
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.TSQL_1433"><span class="selflink">TSQL_1433</span></td><td>
+   Microsoft SQL server
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.Oracle_1521"><span class="selflink">Oracle_1521</span></td><td>
+   oracle server
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.OpenEdge_20931"><span class="selflink">OpenEdge_20931</span></td><td>
+   open edge database
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.Sybase_2638"><span class="selflink">Sybase_2638</span></td><td>
+   Sybase database
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.RDP_3389"><span class="selflink">RDP_3389</span></td><td>
+   Remote Desktop Protocol - Port 3389
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.MYSQL_3306"><span class="selflink">MYSQL_3306</span></td><td>
+   MySQL database port 3306
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.WAC_6516"><span class="selflink">WAC_6516</span></td><td>
+   The windows administration center
+   </td></tr><tr><td /><td target="F:Walter.BOM.TcpPortAlias.Tomcat_8443"><span class="selflink">Tomcat_8443</span></td><td>
+   The default port for Apache Tomcat
+   </td></tr></table></div></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   Each port number identifies a distinct service, this enum's list the services with the default port mapped. you can create a alias on your
+   GateWay and map the ports not external used to the firewall and the firewall will detect them, ideally you would map them from the default port to a
+   detect port not used by the server to avoid conflicts, you can map ports to a maximum value of value of 65,535
+   <p><strong>
+   You can use the firewall's disk reporting NuGet package to generate PoweShell script to block and unblock the IP address are seeking exploits</strong></p>
+   The Firewall and HoneyPotService exposes the OnPortAccessDetected that can be used for controlling the detected signal in real-time
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a>
+  port monitoring in services configuration<br /><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Configure the application to monitor ports</div><div class="code"><pre xml:space="preserve">services.UsePortScannerProtection(options =&gt; {
+                  <span class="highlight-comment">/* Map the service ports to a local port on your computer
+                  *  Redirect the requests to your computer and open the firewall
+                  *  for the redirected ports
+                  *
+                  * In this sample you'd map original port to a custom port to not interfere with the
+                  * original service on your servers firewall open the ports 64000-64006 to enable detection
+                  */</span>
+                  options.SSH    = <span class="highlight-number">64000</span>; <span class="highlight-comment">// map port 22 to port 64000 on your router</span>
+                  options.TSQL   = <span class="highlight-number">64001</span>; <span class="highlight-comment">// map port 1433 to port 64001 on your router</span>
+                  options.Telnet = <span class="highlight-number">64002</span>; <span class="highlight-comment">// map port 23 to port 64002 on your router</span>
+                  options.MYSQL  = <span class="highlight-number">64005</span>; <span class="highlight-comment">// map port 3306 to port 64005 on your router</span>
+                  options.DNS    = <span class="highlight-number">64006</span>; <span class="highlight-comment">// map port 53 to port 64005 on your router</span>
+
+                  <span class="highlight-comment">/*you can manually map port aliases in the range from 0 till 65535*/</span>
+                  options.AddOrUpdate(externalPort: <span class="highlight-number">587</span>, internalPort:<span class="highlight-number">4007</span>, name:<span class="highlight-literal">"ESMTP Extended Simple Mail Transfer Protocol"</span>);
+                  options.AddOrUpdate(externalPort: <span class="highlight-number">647</span>, internalPort:<span class="highlight-number">4008</span>, name:<span class="highlight-literal">"DHCP Fail-over"</span>);
+
+                  <span class="highlight-comment">/*Record up-to 8,000 character when someone is trying to attack the service for legal reporting*/</span>
+                  options.MaximumDataSizeToAccept = <span class="highlight-number">254</span>;
+
+                  <span class="highlight-comment">/*Look between every 100ms and 30000ms if someone is trying to gain access to the system */</span>
+                  options.PoolFrequency = <span class="highlight-number">100</span>;
+
+                  <span class="highlight-comment">/* Add a default reply to any connection, you can send a auto reply
+                   * You can use the template values:
+                   * {IP}  - the attackers IP address
+                   * {Port}- the port being attacked
+                   * {Name}- the name of the alias being used
+                   * {ISP} - the name of the Internet service provider that the attacker is using will be injected
+                   * {Country} - the country name will be injected
+                   * to personalize the message or leave it blank to record silently*/</span>
+                  options.DefaultReply = <span class="highlight-literal">"This service is being monitored and we have detected your intentions attack {Name}"</span> +
+                                         <span class="highlight-literal">" via {IP}:{Port} to gain unlawful access to the system, please note that any unlawful"</span> +
+                                         <span class="highlight-literal">" activity will be reported to {ISP} as well as the relevant authorities in {Country}"</span>;
+
+              })</pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="N-Walter.BOM.htm">Walter.BOM Namespace</a></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div id="footer" class="footerContainer" style="border-top-width:0px;">
+          <div class="footerLogoContainer">
+            <div style="margin-top:5px">
+              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+            </div>
+            <div style="margin-top:5px" class="copyrightFooter" />
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- /Content Ends Here -->
+        </div>
+
+
+  </body>
+</html>

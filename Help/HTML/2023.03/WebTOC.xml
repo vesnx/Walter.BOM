@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="af51969a-0238-490f-9153-196cc70ffd39" Title="Microsoft.Extensions.DependencyInjection Namespace" Url="html/N-Microsoft.Extensions.DependencyInjection.htm">
+    <HelpTOCNode Id="cd88f7b7-86a3-4d69-adf0-a065c09f1b0c" Title="ServiceCollectionExtension Class" Url="html/T-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.htm">
+      <HelpTOCNode Title="ServiceCollectionExtension Members" Url="html/AllMembers.T-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.htm" />
+      <HelpTOCNode Id="08d1e0f2-a9ee-4852-a70a-373296a8ccbd" Title="ServiceCollectionExtension Methods" Url="html/Methods.T-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.htm">
+        <HelpTOCNode Title="AddExceptionConsole(T) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddExceptionConsole--1.htm" />
+        <HelpTOCNode Id="21c58f39-bfc1-456e-9b76-9f4f6e389273" Title="AddServiceTypeIfMissing Method " Url="html/Overload-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing-.htm">
+          <HelpTOCNode Title="AddServiceTypeIfMissing(T) Method (IServiceCollection)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing--1.htm" />
+          <HelpTOCNode Title="AddServiceTypeIfMissing(T) Method (IServiceCollection, Object)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing--1_1.htm" />
+          <HelpTOCNode Title="AddServiceTypeIfMissing Method (IServiceCollection, Type, Type)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing.htm" />
+          <HelpTOCNode Title="AddServiceTypeIfMissing(TServiceType, TImplementationType) Method (IServiceCollection)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing--2.htm" />
+          <HelpTOCNode Title="AddServiceTypeIfMissing(TServiceType, TImplementationType) Method (IServiceCollection, Func(IServiceProvider, TServiceType))" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing--2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8f6231f2-50c8-4b07-94be-9b151ff04b98" Title="Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.Exists">
+          <HelpTOCNode Title="Exists(T) Method (IServiceCollection)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.Exists--1.htm" />
+          <HelpTOCNode Title="Exists Method (IServiceCollection, Type)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.Exists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LogNotImplementedByDesignException(T) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException--1.htm" />
+        <HelpTOCNode Title="ReUseScoped(T, TBase) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.ReUseScoped--2.htm" />
+        <HelpTOCNode Title="ReUseSingleton(T, TBase) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.ReUseSingleton--2.htm" />
+        <HelpTOCNode Title="ReUseTransient(T, TBase) Method " Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.ReUseTransient--2.htm" />
+        <HelpTOCNode Id="f560e7cb-8ba9-49d6-b3bc-5b1bf4d010bd" Title="SwapServiceTypeIfExists Method " Url="html/Overload-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.SwapServiceTypeIfExists-.htm">
+          <HelpTOCNode Title="SwapServiceTypeIfExists(T, TNewType) Method (IServiceCollection, ServiceLifetime)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.SwapServiceTypeIfExists--2.htm" />
+          <HelpTOCNode Title="SwapServiceTypeIfExists(T) Method (IServiceCollection, ServiceLifetime, T)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.SwapServiceTypeIfExists--1.htm" />
+          <HelpTOCNode Title="SwapServiceTypeIfExists(T) Method (IServiceCollection, ServiceLifetime, Func(T))" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.SwapServiceTypeIfExists--1_1.htm" />
+          <HelpTOCNode Title="SwapServiceTypeIfExists Method (IServiceCollection, Type, Type, ServiceLifetime)" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.SwapServiceTypeIfExists.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0aa7e9f2-151b-45e9-9a26-258013c8ed15" Title="System.Text Namespace" Url="html/N-System.Text.htm">
+    <HelpTOCNode Id="135ac143-c835-4ca6-a749-1e48d418cf7f" Title="StringExtensions Class" Url="html/T-System.Text.StringExtensions.htm">
+      <HelpTOCNode Title="StringExtensions Members" Url="html/AllMembers.T-System.Text.StringExtensions.htm" />
+      <HelpTOCNode Id="24fd0fed-8adc-479a-81cd-68eba5003837" Title="StringExtensions Methods" Url="html/Methods.T-System.Text.StringExtensions.htm">
+        <HelpTOCNode Id="4b128f09-91cf-4e91-9da3-a6d4c97ea582" Title="Count Method " Url="html/Overload-System.Text.StringExtensions.Count.htm">
+          <HelpTOCNode Title="Count Method (Nullable(String), Char)" Url="html/M-System.Text.StringExtensions.Count.htm" />
+          <HelpTOCNode Title="Count Method (Nullable(String), String, StringComparison)" Url="html/M-System.Text.StringExtensions.Count_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LineFeedToHtmlBrake Method " Url="html/M-System.Text.StringExtensions.LineFeedToHtmlBrake.htm" />
+        <HelpTOCNode Title="RemoveChar Method " Url="html/M-System.Text.StringExtensions.RemoveChar.htm" />
+        <HelpTOCNode Title="Split Method " Url="html/M-System.Text.StringExtensions.Split.htm" />
+        <HelpTOCNode Title="UnGZip Method " Url="html/M-System.Text.StringExtensions.UnGZip.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="2fb725a3-8333-436c-9795-3c9378fcd629" Title="Walter Namespace" Url="html/N-Walter.htm">
+    <HelpTOCNode Id="d023d96e-8468-4a79-82ca-1c26c819c565" Title="DIContainer Class" Url="html/T-Walter.DIContainer.htm">
+      <HelpTOCNode Title="DIContainer Members" Url="html/AllMembers.T-Walter.DIContainer.htm" />
+      <HelpTOCNode Id="2920415f-ee63-4b84-88c8-75885b08daed" Title="DIContainer Methods" Url="html/Methods.T-Walter.DIContainer.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M-Walter.DIContainer.Clear.htm" />
+        <HelpTOCNode Title="GetDefaultInstance(T) Method " Url="html/M-Walter.DIContainer.GetDefaultInstance--1.htm" />
+        <HelpTOCNode Title="GetDefaultInstanceOrNull(T) Method " Url="html/M-Walter.DIContainer.GetDefaultInstanceOrNull--1.htm" />
+        <HelpTOCNode Title="GetNamedInstance(T) Method " Url="html/M-Walter.DIContainer.GetNamedInstance--1.htm" />
+        <HelpTOCNode Title="SetDefaultInstance(T) Method " Url="html/M-Walter.DIContainer.SetDefaultInstance--1.htm" />
+        <HelpTOCNode Title="SetNamedInstance(T) Method " Url="html/M-Walter.DIContainer.SetNamedInstance--1.htm" />
+        <HelpTOCNode Title="TryGetDefaultInstance(T) Method " Url="html/M-Walter.DIContainer.TryGetDefaultInstance--1.htm" />
+        <HelpTOCNode Title="TryGetNamedInstance(T) Method " Url="html/M-Walter.DIContainer.TryGetNamedInstance--1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="af3a6822-b940-473c-ac81-44b998ac03d1" Title="Walter.BOM Namespace" Url="html/N-Walter.BOM.htm">
+    <HelpTOCNode Id="fa8b5fda-653c-456e-b27b-a1d83f3a0e7a" Title="AbuseReportCommand Class" Url="html/T-Walter.BOM.AbuseReportCommand.htm">
+      <HelpTOCNode Title="AbuseReportCommand Members" Url="html/AllMembers.T-Walter.BOM.AbuseReportCommand.htm" />
+      <HelpTOCNode Id="312422de-21dd-4fc4-b553-ed3f3f15aec8" Title="AbuseReportCommand Constructor " Url="html/Overload-Walter.BOM.AbuseReportCommand.-ctor.htm">
+        <HelpTOCNode Title="AbuseReportCommand Constructor " Url="html/M-Walter.BOM.AbuseReportCommand.-ctor.htm" />
+        <HelpTOCNode Title="AbuseReportCommand Constructor (Filter, Int64)" Url="html/M-Walter.BOM.AbuseReportCommand.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="87327f24-a097-466b-91a8-55f23518916b" Title="AbuseReportCommand Methods" Url="html/Methods.T-Walter.BOM.AbuseReportCommand.htm">
+        <HelpTOCNode Id="ed2d8020-d9c9-40fc-aff1-aa1d3ced596f" Title="Equals Method " Url="html/Overload-Walter.BOM.AbuseReportCommand.Equals.htm">
+          <HelpTOCNode Title="Equals Method (Nullable(Object))" Url="html/M-Walter.BOM.AbuseReportCommand.Equals.htm" />
+          <HelpTOCNode Title="Equals Method (Nullable(AbuseReportCommand))" Url="html/M-Walter.BOM.AbuseReportCommand.Equals_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-Walter.BOM.AbuseReportCommand.GetHashCode.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="665a3b03-b790-4f15-a507-c7538e61f255" Title="AbuseReportCommand Properties" Url="html/Properties.T-Walter.BOM.AbuseReportCommand.htm">
+        <HelpTOCNode Title="BreadCrumbs Property " Url="html/P-Walter.BOM.AbuseReportCommand.BreadCrumbs.htm" />
+        <HelpTOCNode Title="DataSource Property " Url="html/P-Walter.BOM.AbuseReportCommand.DataSource.htm" />
+        <HelpTOCNode Title="From Property " Url="html/P-Walter.BOM.AbuseReportCommand.From.htm" />
+        <HelpTOCNode Title="Payload Property " Url="html/P-Walter.BOM.AbuseReportCommand.Payload.htm" />
+        <HelpTOCNode Title="PortBasedAttacks Property " Url="html/P-Walter.BOM.AbuseReportCommand.PortBasedAttacks.htm" />
+        <HelpTOCNode Title="Till Property " Url="html/P-Walter.BOM.AbuseReportCommand.Till.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P-Walter.BOM.AbuseReportCommand.Value.htm" />
+        <HelpTOCNode Title="WebRequests Property " Url="html/P-Walter.BOM.AbuseReportCommand.WebRequests.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="09505e87-bf93-4547-8758-1a81866fb8e6" Title="AbuseReportCommand Events" Url="html/Events.T-Walter.BOM.AbuseReportCommand.htm">
+        <HelpTOCNode Title="PropertyChanged Event" Url="html/E-Walter.BOM.AbuseReportCommand.PropertyChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="AbuseReportCommand.DataPayloads Enumeration" Url="html/T-Walter.BOM.AbuseReportCommand.DataPayloads.htm" />
+    <HelpTOCNode Title="AbuseReportCommand.Filter Enumeration" Url="html/T-Walter.BOM.AbuseReportCommand.Filter.htm" />
+    <HelpTOCNode Title="AbuseWorkflows Enumeration" Url="html/T-Walter.BOM.AbuseWorkflows.htm" />
+    <HelpTOCNode Id="4301f0be-991a-477b-9e21-4c48483dbcf3" Title="AssemblyNotFoundException Class" Url="html/T-Walter.BOM.AssemblyNotFoundException.htm">
+      <HelpTOCNode Title="AssemblyNotFoundException Members" Url="html/AllMembers.T-Walter.BOM.AssemblyNotFoundException.htm" />
+      <HelpTOCNode Title="AssemblyNotFoundException Constructor (String)" Url="html/M-Walter.BOM.AssemblyNotFoundException.-ctor.htm" />
+      <HelpTOCNode Title="AssemblyNotFoundException Methods" Url="html/Methods.T-Walter.BOM.AssemblyNotFoundException.htm" />
+      <HelpTOCNode Title="AssemblyNotFoundException Properties" Url="html/Properties.T-Walter.BOM.AssemblyNotFoundException.htm" />
+      <HelpTOCNode Title="AssemblyNotFoundException Events" Url="html/Events.T-Walter.BOM.AssemblyNotFoundException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5eb1a41d-0f26-4e1d-bf78-64742264c024" Title="AuditLog Structure" Url="html/T-Walter.BOM.AuditLog.htm">
+      <HelpTOCNode Title="AuditLog Members" Url="html/AllMembers.T-Walter.BOM.AuditLog.htm" />
+      <HelpTOCNode Title="AuditLog Constructor " Url="html/M-Walter.BOM.AuditLog.-ctor.htm" />
+      <HelpTOCNode Id="01dbc8e3-41d5-4794-807f-03a9eda76ad6" Title="AuditLog Methods" Url="html/Methods.T-Walter.BOM.AuditLog.htm">
+        <HelpTOCNode Id="d46a66ce-6696-42a6-84ae-9e863c0e943f" Title="Equals Method " Url="html/Overload-Walter.BOM.AuditLog.Equals.htm">
+          <HelpTOCNode Title="Equals Method (Nullable(Object))" Url="html/M-Walter.BOM.AuditLog.Equals.htm" />
+          <HelpTOCNode Title="Equals Method (AuditLog)" Url="html/M-Walter.BOM.AuditLog.Equals_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-Walter.BOM.AuditLog.GetHashCode.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-Walter.BOM.AuditLog.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b2529f9f-c976-413a-bbd4-0cec487a4037" Title="AuditLog Operators" Url="html/Operators.T-Walter.BOM.AuditLog.htm">
+        <HelpTOCNode Title="Equality Operator " Url="html/M-Walter.BOM.AuditLog.op_Equality.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M-Walter.BOM.AuditLog.op_Inequality.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7c9b22e-c7ef-4339-aec4-34ed92d47af9" Title="AuditLog Properties" Url="html/Properties.T-Walter.BOM.AuditLog.htm">
+        <HelpTOCNode Title="ChangeNr Property " Url="html/P-Walter.BOM.AuditLog.ChangeNr.htm" />
+        <HelpTOCNode Title="ChangeType Property " Url="html/P-Walter.BOM.AuditLog.ChangeType.htm" />
+        <HelpTOCNode Title="FullPath Property " Url="html/P-Walter.BOM.AuditLog.FullPath.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-Walter.BOM.AuditLog.Name.htm" />
+        <HelpTOCNode Title="RecordedUTC Property " Url="html/P-Walter.BOM.AuditLog.RecordedUTC.htm" />
+        <HelpTOCNode Title="Suspicions Property " Url="html/P-Walter.BOM.AuditLog.Suspicions.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="BlacklistLevelHoneyPotPortAccessLevel Enumeration" Url="html/T-Walter.BOM.BlacklistLevelHoneyPotPortAccessLevel.htm" />
+    <HelpTOCNode Id="39bd1d8e-977b-4b45-bd2e-1af19b9e003f" Title="BlacklistStatusCommand Class" Url="html/T-Walter.BOM.BlacklistStatusCommand.htm">
+      <HelpTOCNode Title="BlacklistStatusCommand Members" Url="html/AllMembers.T-Walter.BOM.BlacklistStatusCommand.htm" />
+      <HelpTOCNode Title="BlacklistStatusCommand Methods" Url="html/Methods.T-Walter.BOM.BlacklistStatusCommand.htm" />
+      <HelpTOCNode Id="0d577602-0f90-4308-8d8e-8854abff4087" Title="BlacklistStatusCommand Properties" Url="html/Properties.T-Walter.BOM.BlacklistStatusCommand.htm">
+        <HelpTOCNode Title="CIDR Property " Url="html/P-Walter.BOM.BlacklistStatusCommand.CIDR.htm" />
+        <HelpTOCNode Title="ISPCidr Property " Url="html/P-Walter.BOM.BlacklistStatusCommand.ISPCidr.htm" />
+        <HelpTOCNode Title="Location Property " Url="html/P-Walter.BOM.BlacklistStatusCommand.Location.htm" />
+        <HelpTOCNode Title="UserId Property " Url="html/P-Walter.BOM.BlacklistStatusCommand.UserId.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="BlaklistSource Enumeration" Url="html/T-Walter.BOM.BlaklistSource.htm" />
+    <HelpTOCNode Id="659c6237-f504-4d22-9e94-0d48c1807de5" Title="BlasklistDetail Class" Url="html/T-Walter.BOM.BlasklistDetail.htm">
+      <HelpTOCNode Title="BlasklistDetail Members" Url="html/AllMembers.T-Walter.BOM.BlasklistDetail.htm" />
+      <HelpTOCNode Title="BlasklistDetail Methods" Url="html/Methods.T-Walter.BOM.BlasklistDetail.htm" />
+      <HelpTOCNode Id="3f3e7a05-64d1-44b1-b440-e35ef1dbf571" Title="BlasklistDetail Properties" Url="html/Properties.T-Walter.BOM.BlasklistDetail.htm">
+        <HelpTOCNode Title="Created Property " Url="html/P-Walter.BOM.BlasklistDetail.Created.htm" />
+        <HelpTOCNode Title="Expires Property " Url="html/P-Walter.BOM.BlasklistDetail.Expires.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/P-Walter.BOM.BlasklistDetail.Source.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="99d33675-b154-4beb-93f2-0132db71bad7" Title="BlockedUserRequest Class" Url="html/T-Walter.BOM.BlockedUserRequest.htm">
+      <HelpTOCNode Title="BlockedUserRequest Members" Url="html/AllMembers.T-Walter.BOM.BlockedUserRequest.htm" />
+      <HelpTOCNode Title="BlockedUserRequest Constructor " Url="html/M-Walter.BOM.BlockedUserRequest.-ctor.htm" />
+      <HelpTOCNode Id="4a8707ee-362e-461b-8919-c40772234845" Title="BlockedUserRequest Methods" Url="html/Methods.T-Walter.BOM.BlockedUserRequest.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M-Walter.BOM.BlockedUserRequest.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b63194ea-3d65-4d37-a9c7-282f64e81cfd" Title="BlockedUserRequest Properties" Url="html/Properties.T-Walter.BOM.BlockedUserRequest.htm">
+        <HelpTOCNode Title="Address Property " Url="html/P-Walter.BOM.BlockedUserRequest.Address.htm" />
+        <HelpTOCNode Title="BlockedUri Property " Url="html/P-Walter.BOM.BlockedUserRequest.BlockedUri.htm" />
+        <HelpTOCNode Title="CIRD Property " Url="html/P-Walter.BOM.BlockedUserRequest.CIRD.htm" />
+        <HelpTOCNode Title="DnsDomain Property " Url="html/P-Walter.BOM.BlockedUserRequest.DnsDomain.htm" />
+        <HelpTOCNode Title="DnsName Property " Url="html/P-Walter.BOM.BlockedUserRequest.DnsName.htm" />
+        <HelpTOCNode Title="FireWallUserId Property " Url="html/P-Walter.BOM.BlockedUserRequest.FireWallUserId.htm" />
+        <HelpTOCNode Title="IncludedIn Property " Url="html/P-Walter.BOM.BlockedUserRequest.IncludedIn.htm" />
+        <HelpTOCNode Title="IspContact Property " Url="html/P-Walter.BOM.BlockedUserRequest.IspContact.htm" />
+        <HelpTOCNode Title="Location Property " Url="html/P-Walter.BOM.BlockedUserRequest.Location.htm" />
+        <HelpTOCNode Title="MapLocation Property " Url="html/P-Walter.BOM.BlockedUserRequest.MapLocation.htm" />
+        <HelpTOCNode Title="RefferedBy Property " Url="html/P-Walter.BOM.BlockedUserRequest.RefferedBy.htm" />
+        <HelpTOCNode Title="UserLoggedIn Property " Url="html/P-Walter.BOM.BlockedUserRequest.UserLoggedIn.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c23c2c7-4e87-48f1-aee8-307e6b6a698c" Title="BlockStatusState Class" Url="html/T-Walter.BOM.BlockStatusState.htm">
+      <HelpTOCNode Title="BlockStatusState Members" Url="html/AllMembers.T-Walter.BOM.BlockStatusState.htm" />
+      <HelpTOCNode Title="BlockStatusState Methods" Url="html/Methods.T-Walter.BOM.BlockStatusState.htm" />
+      <HelpTOCNode Id="711cae18-559a-49cc-be16-923682e2e57e" Title="BlockStatusState Properties" Url="html/Properties.T-Walter.BOM.BlockStatusState.htm">
+        <HelpTOCNode Title="CIDR Property " Url="html/P-Walter.BOM.BlockStatusState.CIDR.htm" />
+        <HelpTOCNode Title="ISPCidr Property " Url="html/P-Walter.BOM.BlockStatusState.ISPCidr.htm" />
+        <HelpTOCNode Title="Location Property " Url="html/P-Walter.BOM.BlockStatusState.Location.htm" />
+        <HelpTOCNode Title="UserId Property " Url="html/P-Walter.BOM.BlockStatusState.UserId.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ContentTypes Enumeration" Url="html/T-Walter.BOM.ContentTypes.htm" />
+    <HelpTOCNode Title="CookieName Enumeration" Url="html/T-Walter.BOM.CookieName.htm" />
+    <HelpTOCNode Id="9950ea83-3d75-4fa7-a5c7-a4d662b0af49" Title="DataLossException Class" Url="html/T-Walter.BOM.DataLossException.htm">
+      <HelpTOCNode Title="DataLossException Members" Url="html/AllMembers.T-Walter.BOM.DataLossException.htm" />
+      <HelpTOCNode Id="da4279ed-a144-4192-9403-6da67b6d4209" Title="DataLossException Constructor " Url="html/Overload-Walter.BOM.DataLossException.-ctor.htm">
+        <HelpTOCNode Title="DataLossException Constructor (String)" Url="html/M-Walter.BOM.DataLossException.-ctor.htm" />
+        <HelpTOCNode Title="DataLossException Constructor (String, Exception)" Url="html/M-Walter.BOM.DataLossException.-ctor_1.htm" />
+        <HelpTOCNode Title="DataLossException Constructor (String, String)" Url="html/M-Walter.BOM.DataLossException.-ctor_2.htm" />
+        <HelpTOCNode Title="DataLossException Constructor (String, String, Exception)" Url="html/M-Walter.BOM.DataLossException.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DataLossException Methods" Url="html/Methods.T-Walter.BOM.DataLossException.htm" />
+      <HelpTOCNode Id="8b9d856e-6f30-4c9a-b6b0-feb7a31f95af" Title="DataLossException Properties" Url="html/Properties.T-Walter.BOM.DataLossException.htm">
+        <HelpTOCNode Title="PropertyName Property " Url="html/P-Walter.BOM.DataLossException.PropertyName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DataLossException Events" Url="html/Events.T-Walter.BOM.DataLossException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0b14b8aa-c217-4c1c-86e4-be57e226a891" Title="DiskSecurityViolationException Class" Url="html/T-Walter.BOM.DiskSecurityViolationException.htm">
+      <HelpTOCNode Title="DiskSecurityViolationException Members" Url="html/AllMembers.T-Walter.BOM.DiskSecurityViolationException.htm" />
+      <HelpTOCNode Id="8b226781-c73b-4f4c-bfef-db036071d92e" Title="DiskSecurityViolationException Constructor " Url="html/Overload-Walter.BOM.DiskSecurityViolationException.-ctor.htm">
+        <HelpTOCNode Title="DiskSecurityViolationException Constructor (String)" Url="html/M-Walter.BOM.DiskSecurityViolationException.-ctor.htm" />
+        <HelpTOCNode Title="DiskSecurityViolationException Constructor (String, FirewallBlockReasons[])" Url="html/M-Walter.BOM.DiskSecurityViolationException.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DiskSecurityViolationException Methods" Url="html/Methods.T-Walter.BOM.DiskSecurityViolationException.htm" />
+      <HelpTOCNode Id="5a77b72b-5ea5-4a2a-9a27-d0b1cccb1643" Title="DiskSecurityViolationException Properties" Url="html/Properties.T-Walter.BOM.DiskSecurityViolationException.htm">
+        <HelpTOCNode Title="Reasons Property " Url="html/P-Walter.BOM.DiskSecurityViolationException.Reasons.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DiskSecurityViolationException Events" Url="html/Events.T-Walter.BOM.DiskSecurityViolationException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="EntryChangeType Enumeration" Url="html/T-Walter.BOM.EntryChangeType.htm" />
+    <HelpTOCNode Id="38a3a956-af93-4046-a651-c91b2cb4678c" Title="EntryNotFoundException Class" Url="html/T-Walter.BOM.EntryNotFoundException.htm">
+      <HelpTOCNode Title="EntryNotFoundException Members" Url="html/AllMembers.T-Walter.BOM.EntryNotFoundException.htm" />
+      <HelpTOCNode Title="EntryNotFoundException Constructor (String)" Url="html/M-Walter.BOM.EntryNotFoundException.-ctor.htm" />
+      <HelpTOCNode Title="EntryNotFoundException Methods" Url="html/Methods.T-Walter.BOM.EntryNotFoundException.htm" />
+      <HelpTOCNode Title="EntryNotFoundException Properties" Url="html/Properties.T-Walter.BOM.EntryNotFoundException.htm" />
+      <HelpTOCNode Title="EntryNotFoundException Events" Url="html/Events.T-Walter.BOM.EntryNotFoundException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eb22aaf5-7895-4b32-8751-2e83d54876f9" Title="EventRecordedEventArgs Class" Url="html/T-Walter.BOM.EventRecordedEventArgs.htm">
+      <HelpTOCNode Title="EventRecordedEventArgs Members" Url="html/AllMembers.T-Walter.BOM.EventRecordedEventArgs.htm" />
+      <HelpTOCNode Title="EventRecordedEventArgs Methods" Url="html/Methods.T-Walter.BOM.EventRecordedEventArgs.htm" />
+      <HelpTOCNode Id="695c4391-fb60-4f41-88fe-b772ee7d5a41" Title="EventRecordedEventArgs Properties" Url="html/Properties.T-Walter.BOM.EventRecordedEventArgs.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P-Walter.BOM.EventRecordedEventArgs.Item.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cffc1322-d79e-40d7-becd-dd15ef521643" Title="ExceptionLogging Class" Url="html/T-Walter.BOM.ExceptionLogging.htm">
+      <HelpTOCNode Title="ExceptionLogging Members" Url="html/AllMembers.T-Walter.BOM.ExceptionLogging.htm" />
+      <HelpTOCNode Title="ExceptionLogging Methods" Url="html/Methods.T-Walter.BOM.ExceptionLogging.htm" />
+      <HelpTOCNode Id="216703d0-3caa-4495-82e9-63b5a9a274c0" Title="ExceptionLogging Properties" Url="html/Properties.T-Walter.BOM.ExceptionLogging.htm">
+        <HelpTOCNode Title="ApplicationName Property " Url="html/P-Walter.BOM.ExceptionLogging.ApplicationName.htm" />
+        <HelpTOCNode Title="CallingMethod Property " Url="html/P-Walter.BOM.ExceptionLogging.CallingMethod.htm" />
+        <HelpTOCNode Title="FileName Property " Url="html/P-Walter.BOM.ExceptionLogging.FileName.htm" />
+        <HelpTOCNode Title="LineNumber Property " Url="html/P-Walter.BOM.ExceptionLogging.LineNumber.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P-Walter.BOM.ExceptionLogging.Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="FeaturesDataSource Enumeration" Url="html/T-Walter.BOM.FeaturesDataSource.htm" />
+    <HelpTOCNode Title="FirewallAllowReasons Enumeration" Url="html/T-Walter.BOM.FirewallAllowReasons.htm" />
+    <HelpTOCNode Id="41db6d95-666a-4df6-9b51-36af8d34ea33" Title="FirewallBlockReasonAuditEntry Class" Url="html/T-Walter.BOM.FirewallBlockReasonAuditEntry.htm">
+      <HelpTOCNode Title="FirewallBlockReasonAuditEntry Members" Url="html/AllMembers.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
+      <HelpTOCNode Title="FirewallBlockReasonAuditEntry Methods" Url="html/Methods.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
+      <HelpTOCNode Id="01d1ab53-7ccb-442a-9643-7dd05ed2e4a4" Title="FirewallBlockReasonAuditEntry Properties" Url="html/Properties.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm">
+        <HelpTOCNode Title="Actual Property " Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Actual.htm" />
+        <HelpTOCNode Title="Allowed Property " Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Allowed.htm" />
+        <HelpTOCNode Title="Evaluated Property " Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Evaluated.htm" />
+        <HelpTOCNode Title="Reasons Property " Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Reasons.htm" />
+        <HelpTOCNode Title="TimeSpan Property " Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.TimeSpan.htm" />
+        <HelpTOCNode Title="Violates Property " Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Violates.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="FirewallBlockReasons Enumeration" Url="html/T-Walter.BOM.FirewallBlockReasons.htm" />
+    <HelpTOCNode Title="FireWallContexts Enumeration" Url="html/T-Walter.BOM.FireWallContexts.htm" />
+    <HelpTOCNode Title="FireWallReportContentFeatures Enumeration" Url="html/T-Walter.BOM.FireWallReportContentFeatures.htm" />
+    <HelpTOCNode Title="FireWallReportType Enumeration" Url="html/T-Walter.BOM.FireWallReportType.htm" />
+    <HelpTOCNode Id="d3895173-662b-4f1a-8a96-e17ae40d60db" Title="GlossarayExtensions Class" Url="html/T-Walter.BOM.GlossarayExtensions.htm">
+      <HelpTOCNode Title="GlossarayExtensions Members" Url="html/AllMembers.T-Walter.BOM.GlossarayExtensions.htm" />
+      <HelpTOCNode Id="4afb1216-e21d-43a8-a129-a6673bbff92a" Title="GlossarayExtensions Methods" Url="html/Methods.T-Walter.BOM.GlossarayExtensions.htm">
+        <HelpTOCNode Id="2611f42b-f65a-4a8c-87b8-89bcac217599" Title="Glossary Method " Url="html/Overload-Walter.BOM.GlossarayExtensions.Glossary.htm">
+          <HelpTOCNode Title="Glossary Method (FirewallBlockReasons)" Url="html/M-Walter.BOM.GlossarayExtensions.Glossary.htm" />
+          <HelpTOCNode Title="Glossary Method (FirewallAllowReasons)" Url="html/M-Walter.BOM.GlossarayExtensions.Glossary_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="GuardAction Enumeration" Url="html/T-Walter.BOM.GuardAction.htm" />
+    <HelpTOCNode Title="GuardResponse Enumeration" Url="html/T-Walter.BOM.GuardResponse.htm" />
+    <HelpTOCNode Title="HeaderName Enumeration" Url="html/T-Walter.BOM.HeaderName.htm" />
+    <HelpTOCNode Id="47b5330d-87de-40b0-aa9a-e91966aa09a7" Title="HelpTopicAttribute Class" Url="html/T-Walter.BOM.HelpTopicAttribute.htm">
+      <HelpTOCNode Title="HelpTopicAttribute Members" Url="html/AllMembers.T-Walter.BOM.HelpTopicAttribute.htm" />
+      <HelpTOCNode Id="177ea58a-a6a4-4020-b610-3012ad26c2e7" Title="HelpTopicAttribute Constructor " Url="html/Overload-Walter.BOM.HelpTopicAttribute.-ctor.htm">
+        <HelpTOCNode Title="HelpTopicAttribute Constructor (String)" Url="html/M-Walter.BOM.HelpTopicAttribute.-ctor.htm" />
+        <HelpTOCNode Title="HelpTopicAttribute Constructor (String, Int32)" Url="html/M-Walter.BOM.HelpTopicAttribute.-ctor_1.htm" />
+        <HelpTOCNode Title="HelpTopicAttribute Constructor (String, String, Nullable(Int32))" Url="html/M-Walter.BOM.HelpTopicAttribute.-ctor_2.htm" />
+        <HelpTOCNode Title="HelpTopicAttribute Constructor (Uri, String, String, Nullable(Int32))" Url="html/M-Walter.BOM.HelpTopicAttribute.-ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6cb858fb-4dc3-4cf6-b240-774fb321ef2f" Title="HelpTopicAttribute Methods" Url="html/Methods.T-Walter.BOM.HelpTopicAttribute.htm">
+        <HelpTOCNode Title="Url Method " Url="html/M-Walter.BOM.HelpTopicAttribute.Url.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="67c33a8e-f8d4-42dc-89c5-a8fa9d98b46e" Title="HelpTopicAttribute Properties" Url="html/Properties.T-Walter.BOM.HelpTopicAttribute.htm">
+        <HelpTOCNode Title="Action Property " Url="html/P-Walter.BOM.HelpTopicAttribute.Action.htm" />
+        <HelpTOCNode Title="Code Property " Url="html/P-Walter.BOM.HelpTopicAttribute.Code.htm" />
+        <HelpTOCNode Title="Controller Property " Url="html/P-Walter.BOM.HelpTopicAttribute.Controller.htm" />
+        <HelpTOCNode Title="Domain Property " Url="html/P-Walter.BOM.HelpTopicAttribute.Domain.htm" />
+        <HelpTOCNode Title="Topic Property " Url="html/P-Walter.BOM.HelpTopicAttribute.Topic.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1a237432-04ed-44ff-bf5e-b8e14e568cdb" Title="IClock Interface" Url="html/T-Walter.BOM.IClock.htm">
+      <HelpTOCNode Title="IClock Methods" Url="html/Methods.T-Walter.BOM.IClock.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c0f9eb6f-3dbf-4f9a-b8a0-3e77811fdb3a" Title="IControlledDiskIO Interface" Url="html/T-Walter.BOM.IControlledDiskIO.htm">
+      <HelpTOCNode Title="IControlledDiskIO Members" Url="html/AllMembers.T-Walter.BOM.IControlledDiskIO.htm" />
+      <HelpTOCNode Id="b4e92e1d-df34-4382-b076-6ff589f34f4c" Title="IControlledDiskIO Methods" Url="html/Methods.T-Walter.BOM.IControlledDiskIO.htm">
+        <HelpTOCNode Title="AppendFile Method " Url="html/M-Walter.BOM.IControlledDiskIO.AppendFile.htm" />
+        <HelpTOCNode Title="AppendLineFile Method " Url="html/M-Walter.BOM.IControlledDiskIO.AppendLineFile.htm" />
+        <HelpTOCNode Title="AppendLineFileAsync Method " Url="html/M-Walter.BOM.IControlledDiskIO.AppendLineFileAsync.htm" />
+        <HelpTOCNode Title="DeleteFile Method " Url="html/M-Walter.BOM.IControlledDiskIO.DeleteFile.htm" />
+        <HelpTOCNode Title="TryWriteFile Method " Url="html/M-Walter.BOM.IControlledDiskIO.TryWriteFile.htm" />
+        <HelpTOCNode Id="01b2f973-6231-404b-b786-3b5c62e04f85" Title="WriteFile Method " Url="html/Overload-Walter.BOM.IControlledDiskIO.WriteFile.htm">
+          <HelpTOCNode Title="WriteFile Method (FileInfo, String)" Url="html/M-Walter.BOM.IControlledDiskIO.WriteFile.htm" />
+          <HelpTOCNode Title="WriteFile Method (FileInfo, Byte[])" Url="html/M-Walter.BOM.IControlledDiskIO.WriteFile_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3b9c4e22-024a-4310-9d78-6d751c6d9fb3" Title="WriteFileAsync Method " Url="html/Overload-Walter.BOM.IControlledDiskIO.WriteFileAsync.htm">
+          <HelpTOCNode Title="WriteFileAsync Method (FileInfo, String, CancellationToken)" Url="html/M-Walter.BOM.IControlledDiskIO.WriteFileAsync.htm" />
+          <HelpTOCNode Title="WriteFileAsync Method (FileInfo, Byte[], CancellationToken)" Url="html/M-Walter.BOM.IControlledDiskIO.WriteFileAsync_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fea518c9-14f3-4827-8d75-92308b74feec" Title="IControlledDiskIO Properties" Url="html/Properties.T-Walter.BOM.IControlledDiskIO.htm">
+        <HelpTOCNode Title="DiskAudit Property " Url="html/P-Walter.BOM.IControlledDiskIO.DiskAudit.htm" />
+        <HelpTOCNode Title="DiskChangesDetected Property " Url="html/P-Walter.BOM.IControlledDiskIO.DiskChangesDetected.htm" />
+        <HelpTOCNode Title="DiskChangesMade Property " Url="html/P-Walter.BOM.IControlledDiskIO.DiskChangesMade.htm" />
+        <HelpTOCNode Title="DiskChangesPending Property " Url="html/P-Walter.BOM.IControlledDiskIO.DiskChangesPending.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c3da07ed-4b08-4d19-a77f-6d649ea18560" Title="IDBConnection Interface" Url="html/T-Walter.BOM.IDBConnection.htm">
+      <HelpTOCNode Title="IDBConnection Members" Url="html/AllMembers.T-Walter.BOM.IDBConnection.htm" />
+      <HelpTOCNode Title="IDBConnection Methods" Url="html/Methods.T-Walter.BOM.IDBConnection.htm" />
+      <HelpTOCNode Id="2c31e5b3-d2ec-4f9b-8051-c7582f774938" Title="IDBConnection Properties" Url="html/Properties.T-Walter.BOM.IDBConnection.htm">
+        <HelpTOCNode Title="ConnectionString Property " Url="html/P-Walter.BOM.IDBConnection.ConnectionString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e849eedd-7821-47d9-b486-8fc57ab321a9" Title="IDevice Interface" Url="html/T-Walter.BOM.IDevice.htm">
+      <HelpTOCNode Title="IDevice Members" Url="html/AllMembers.T-Walter.BOM.IDevice.htm" />
+      <HelpTOCNode Title="IDevice Methods" Url="html/Methods.T-Walter.BOM.IDevice.htm" />
+      <HelpTOCNode Id="48fa45b5-90a0-46cb-ade1-3369cd9e66dd" Title="IDevice Properties" Url="html/Properties.T-Walter.BOM.IDevice.htm">
+        <HelpTOCNode Title="Agent Property " Url="html/P-Walter.BOM.IDevice.Agent.htm" />
+        <HelpTOCNode Title="DocumentCapabilities Property " Url="html/P-Walter.BOM.IDevice.DocumentCapabilities.htm" />
+        <HelpTOCNode Title="Screen Property " Url="html/P-Walter.BOM.IDevice.Screen.htm" />
+        <HelpTOCNode Title="WindowCapabilities Property " Url="html/P-Walter.BOM.IDevice.WindowCapabilities.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c440dea2-2c89-49ed-a290-383188fbeb8b" Title="IDeviceSignature Interface" Url="html/T-Walter.BOM.IDeviceSignature.htm">
+      <HelpTOCNode Title="IDeviceSignature Members" Url="html/AllMembers.T-Walter.BOM.IDeviceSignature.htm" />
+      <HelpTOCNode Id="9ca6e952-945e-4e8b-8dc8-4f1c2e983879" Title="IDeviceSignature Methods" Url="html/Methods.T-Walter.BOM.IDeviceSignature.htm">
+        <HelpTOCNode Title="TriggerAgentSwitch Method " Url="html/M-Walter.BOM.IDeviceSignature.TriggerAgentSwitch.htm" />
+        <HelpTOCNode Title="TriggerGeoBlock Method " Url="html/M-Walter.BOM.IDeviceSignature.TriggerGeoBlock.htm" />
+        <HelpTOCNode Title="TriggerViolations Method " Url="html/M-Walter.BOM.IDeviceSignature.TriggerViolations.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="53ef3e6c-ec50-4bb9-8d60-45b07c137de0" Title="IDeviceSignature Properties" Url="html/Properties.T-Walter.BOM.IDeviceSignature.htm">
+        <HelpTOCNode Title="AgentHash Property " Url="html/P-Walter.BOM.IDeviceSignature.AgentHash.htm" />
+        <HelpTOCNode Title="CapabilitiesHash Property " Url="html/P-Walter.BOM.IDeviceSignature.CapabilitiesHash.htm" />
+        <HelpTOCNode Title="ScreenHash Property " Url="html/P-Walter.BOM.IDeviceSignature.ScreenHash.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fb3ee286-dc90-49a5-9605-970c75601ce9" Title="IDomain Interface" Url="html/T-Walter.BOM.IDomain.htm">
+      <HelpTOCNode Title="IDomain Members" Url="html/AllMembers.T-Walter.BOM.IDomain.htm" />
+      <HelpTOCNode Id="7d2fe03f-32cb-4738-a806-d1b32e4a8eba" Title="IDomain Methods" Url="html/Methods.T-Walter.BOM.IDomain.htm">
+        <HelpTOCNode Title="LoadKey Method " Url="html/M-Walter.BOM.IDomain.LoadKey.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cc38aa83-84e1-4068-b5b7-61e699b0dc4a" Title="IDomain Properties" Url="html/Properties.T-Walter.BOM.IDomain.htm">
+        <HelpTOCNode Title="DomainKey Property " Url="html/P-Walter.BOM.IDomain.DomainKey.htm" />
+        <HelpTOCNode Title="DomainName Property " Url="html/P-Walter.BOM.IDomain.DomainName.htm" />
+        <HelpTOCNode Title="DomainUrl Property " Url="html/P-Walter.BOM.IDomain.DomainUrl.htm" />
+        <HelpTOCNode Title="KeyRing Property " Url="html/P-Walter.BOM.IDomain.KeyRing.htm" />
+        <HelpTOCNode Title="LicenseHttpHeaderName Property " Url="html/P-Walter.BOM.IDomain.LicenseHttpHeaderName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5ff85253-6c17-4368-a794-abedc1d6348a" Title="IExceptionConsole Interface" Url="html/T-Walter.BOM.IExceptionConsole.htm">
+      <HelpTOCNode Title="IExceptionConsole Members" Url="html/AllMembers.T-Walter.BOM.IExceptionConsole.htm" />
+      <HelpTOCNode Id="171ac81b-32aa-4e5f-b845-a193ca209e96" Title="IExceptionConsole Methods" Url="html/Methods.T-Walter.BOM.IExceptionConsole.htm">
+        <HelpTOCNode Title="LogException(T) Method " Url="html/M-Walter.BOM.IExceptionConsole.LogException--1.htm" />
+        <HelpTOCNode Title="LogTodo(T) Method " Url="html/M-Walter.BOM.IExceptionConsole.LogTodo--1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="10742149-7155-4611-8b18-e2d8824cb3fd" Title="IExceptionConsole Properties" Url="html/Properties.T-Walter.BOM.IExceptionConsole.htm">
+        <HelpTOCNode Title="Owner Property " Url="html/P-Walter.BOM.IExceptionConsole.Owner.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4521008d-0507-4b37-ba68-f66d8e2a4120" Title="IExceptionConsole Events" Url="html/Events.T-Walter.BOM.IExceptionConsole.htm">
+        <HelpTOCNode Title="OnExceptionRecorded Event" Url="html/E-Walter.BOM.IExceptionConsole.OnExceptionRecorded.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e1b26146-1a85-4ef3-a1be-cdc836779781" Title="IExceptionConsoleData Interface" Url="html/T-Walter.BOM.IExceptionConsoleData.htm">
+      <HelpTOCNode Title="IExceptionConsoleData Members" Url="html/AllMembers.T-Walter.BOM.IExceptionConsoleData.htm" />
+      <HelpTOCNode Title="IExceptionConsoleData Methods" Url="html/Methods.T-Walter.BOM.IExceptionConsoleData.htm" />
+      <HelpTOCNode Id="546ebe5b-7a98-48c6-9a94-4c8213fb3017" Title="IExceptionConsoleData Properties" Url="html/Properties.T-Walter.BOM.IExceptionConsoleData.htm">
+        <HelpTOCNode Title="Exceptions Property " Url="html/P-Walter.BOM.IExceptionConsoleData.Exceptions.htm" />
+        <HelpTOCNode Title="ToDo Property " Url="html/P-Walter.BOM.IExceptionConsoleData.ToDo.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="40ff4ad9-7166-4507-a255-b9ad1fbafd8c" Title="IExceptionItem Interface" Url="html/T-Walter.BOM.IExceptionItem.htm">
+      <HelpTOCNode Title="IExceptionItem Members" Url="html/AllMembers.T-Walter.BOM.IExceptionItem.htm" />
+      <HelpTOCNode Title="IExceptionItem Methods" Url="html/Methods.T-Walter.BOM.IExceptionItem.htm" />
+      <HelpTOCNode Id="54723818-2e74-4211-849c-145e0bf4f35f" Title="IExceptionItem Properties" Url="html/Properties.T-Walter.BOM.IExceptionItem.htm">
+        <HelpTOCNode Title="ClassName Property " Url="html/P-Walter.BOM.IExceptionItem.ClassName.htm" />
+        <HelpTOCNode Title="ErrorNumber Property " Url="html/P-Walter.BOM.IExceptionItem.ErrorNumber.htm" />
+        <HelpTOCNode Title="ErrorType Property " Url="html/P-Walter.BOM.IExceptionItem.ErrorType.htm" />
+        <HelpTOCNode Title="Exception Property " Url="html/P-Walter.BOM.IExceptionItem.Exception.htm" />
+        <HelpTOCNode Title="File Property " Url="html/P-Walter.BOM.IExceptionItem.File.htm" />
+        <HelpTOCNode Title="Line Property " Url="html/P-Walter.BOM.IExceptionItem.Line.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/P-Walter.BOM.IExceptionItem.Message.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c5a07efc-c89d-45d3-930e-6f5ef91a732b" Title="IKeyRingKey Interface" Url="html/T-Walter.BOM.IKeyRingKey.htm">
+      <HelpTOCNode Title="IKeyRingKey Members" Url="html/AllMembers.T-Walter.BOM.IKeyRingKey.htm" />
+      <HelpTOCNode Title="IKeyRingKey Methods" Url="html/Methods.T-Walter.BOM.IKeyRingKey.htm" />
+      <HelpTOCNode Id="98f9aabd-6915-4900-a8aa-7e4b9a3fffe5" Title="IKeyRingKey Properties" Url="html/Properties.T-Walter.BOM.IKeyRingKey.htm">
+        <HelpTOCNode Title="Generated Property " Url="html/P-Walter.BOM.IKeyRingKey.Generated.htm" />
+        <HelpTOCNode Title="Key Property " Url="html/P-Walter.BOM.IKeyRingKey.Key.htm" />
+        <HelpTOCNode Title="KeyNumber Property " Url="html/P-Walter.BOM.IKeyRingKey.KeyNumber.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="27f2e45a-13ea-485c-9a45-f4b6ce052b3a" Title="ILicense Interface" Url="html/T-Walter.BOM.ILicense.htm">
+      <HelpTOCNode Title="ILicense Members" Url="html/AllMembers.T-Walter.BOM.ILicense.htm" />
+      <HelpTOCNode Title="ILicense Methods" Url="html/Methods.T-Walter.BOM.ILicense.htm" />
+      <HelpTOCNode Id="8e4274a1-a52c-4013-a428-583f89dfe15c" Title="ILicense Properties" Url="html/Properties.T-Walter.BOM.ILicense.htm">
+        <HelpTOCNode Title="CompanyId Property " Url="html/P-Walter.BOM.ILicense.CompanyId.htm" />
+        <HelpTOCNode Title="Contacts Property " Url="html/P-Walter.BOM.ILicense.Contacts.htm" />
+        <HelpTOCNode Title="Domain Property " Url="html/P-Walter.BOM.ILicense.Domain.htm" />
+        <HelpTOCNode Title="Expires Property " Url="html/P-Walter.BOM.ILicense.Expires.htm" />
+        <HelpTOCNode Title="LicenseId Property " Url="html/P-Walter.BOM.ILicense.LicenseId.htm" />
+        <HelpTOCNode Title="LicenseToken Property " Url="html/P-Walter.BOM.ILicense.LicenseToken.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4beb40b6-6a09-46b6-b4da-a3071e0b9f8f" Title="ILicensedDomain Interface" Url="html/T-Walter.BOM.ILicensedDomain.htm">
+      <HelpTOCNode Title="ILicensedDomain Members" Url="html/AllMembers.T-Walter.BOM.ILicensedDomain.htm" />
+      <HelpTOCNode Title="ILicensedDomain Methods" Url="html/Methods.T-Walter.BOM.ILicensedDomain.htm" />
+      <HelpTOCNode Id="adc76e22-e8a4-4545-9613-be54fe572532" Title="ILicensedDomain Properties" Url="html/Properties.T-Walter.BOM.ILicensedDomain.htm">
+        <HelpTOCNode Title="ApplicationTag Property " Url="html/P-Walter.BOM.ILicensedDomain.ApplicationTag.htm" />
+        <HelpTOCNode Title="DomainName Property " Url="html/P-Walter.BOM.ILicensedDomain.DomainName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="61d76820-3f30-47e2-ba75-4ba801e1d6a7" Title="ILicenseKey(T) Interface" Url="html/T-Walter.BOM.ILicenseKey-1.htm">
+      <HelpTOCNode Title="ILicenseKey Members" Url="html/AllMembers.T-Walter.BOM.ILicenseKey-1.htm" />
+      <HelpTOCNode Title="ILicenseKey Methods" Url="html/Methods.T-Walter.BOM.ILicenseKey-1.htm" />
+      <HelpTOCNode Id="26ec71d1-e758-4f70-84b5-7eebc050cc84" Title="ILicenseKey Properties" Url="html/Properties.T-Walter.BOM.ILicenseKey-1.htm">
+        <HelpTOCNode Title="Domain Property " Url="html/P-Walter.BOM.ILicenseKey-1.Domain.htm" />
+        <HelpTOCNode Title="Expires Property " Url="html/P-Walter.BOM.ILicenseKey-1.Expires.htm" />
+        <HelpTOCNode Title="InDebugger Property " Url="html/P-Walter.BOM.ILicenseKey-1.InDebugger.htm" />
+        <HelpTOCNode Title="LicenseLevel Property " Url="html/P-Walter.BOM.ILicenseKey-1.LicenseLevel.htm" />
+        <HelpTOCNode Title="LicenseToken Property " Url="html/P-Walter.BOM.ILicenseKey-1.LicenseToken.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/P-Walter.BOM.ILicenseKey-1.Status.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e86aa16f-a1b5-4b34-bb46-19ecc7ff4ab8" Title="ILicenseKey Events" Url="html/Events.T-Walter.BOM.ILicenseKey-1.htm">
+        <HelpTOCNode Title="LicenseLevelChanged Event" Url="html/E-Walter.BOM.ILicenseKey-1.LicenseLevelChanged.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="IncidentAssertType Enumeration" Url="html/T-Walter.BOM.IncidentAssertType.htm" />
+    <HelpTOCNode Title="InterceptLocations Enumeration" Url="html/T-Walter.BOM.InterceptLocations.htm" />
+    <HelpTOCNode Id="a6fd7433-6c95-45e2-9143-ade34633412b" Title="IPAddressConverter Class" Url="html/T-Walter.BOM.IPAddressConverter.htm">
+      <HelpTOCNode Title="IPAddressConverter Members" Url="html/AllMembers.T-Walter.BOM.IPAddressConverter.htm" />
+      <HelpTOCNode Id="d9f59545-36f0-4322-998d-10e039199402" Title="IPAddressConverter Methods" Url="html/Methods.T-Walter.BOM.IPAddressConverter.htm">
+        <HelpTOCNode Id="1ba34a93-a191-41d5-a91f-f0830bfe0454" Title="CanConvert Method " Url="html/Overload-Walter.BOM.IPAddressConverter.CanConvert.htm">
+          <HelpTOCNode Title="CanConvert Method " Url="html/M-Walter.BOM.IPAddressConverter.CanConvert.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7f202cde-51d4-4355-9b7c-7c723420b8f4" Title="ReadJson Method " Url="html/Overload-Walter.BOM.IPAddressConverter.ReadJson.htm">
+          <HelpTOCNode Title="ReadJson Method " Url="html/M-Walter.BOM.IPAddressConverter.ReadJson.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f9796eb7-6661-472a-b1b9-0a637a8a27d4" Title="WriteJson Method " Url="html/Overload-Walter.BOM.IPAddressConverter.WriteJson.htm">
+          <HelpTOCNode Title="WriteJson Method " Url="html/M-Walter.BOM.IPAddressConverter.WriteJson.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="IPAddressConverter Properties" Url="html/Properties.T-Walter.BOM.IPAddressConverter.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7b2d7a77-e7bb-410d-8339-205064ad09c5" Title="IParse(T) Interface" Url="html/T-Walter.BOM.IParse-1.htm">
+      <HelpTOCNode Title="IParse Members" Url="html/AllMembers.T-Walter.BOM.IParse-1.htm" />
+      <HelpTOCNode Id="6e5e3d45-33a2-4077-9f72-c7a4a6d7ec0c" Title="IParse Methods" Url="html/Methods.T-Walter.BOM.IParse-1.htm">
+        <HelpTOCNode Title="SetId Method " Url="html/M-Walter.BOM.IParse-1.SetId.htm" />
+        <HelpTOCNode Title="SetValues Method " Url="html/M-Walter.BOM.IParse-1.SetValues.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-Walter.BOM.IParse-1.ToString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e527908f-d584-4410-95de-31db3819c439" Title="IParse(T1, T2) Interface" Url="html/T-Walter.BOM.IParse-2.htm">
+      <HelpTOCNode Title="IParse Members" Url="html/AllMembers.T-Walter.BOM.IParse-2.htm" />
+      <HelpTOCNode Id="4e646c12-3266-4031-82ba-b2b78f47ca1d" Title="IParse Methods" Url="html/Methods.T-Walter.BOM.IParse-2.htm">
+        <HelpTOCNode Title="Create Method " Url="html/M-Walter.BOM.IParse-2.Create.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d915fda-a5e7-4290-8489-1ff53439bd7f" Title="IPopulate(T) Interface" Url="html/T-Walter.BOM.IPopulate-1.htm">
+      <HelpTOCNode Title="IPopulate Members" Url="html/AllMembers.T-Walter.BOM.IPopulate-1.htm" />
+      <HelpTOCNode Id="ed914a76-7b4a-4dea-971c-2791401292f0" Title="IPopulate Methods" Url="html/Methods.T-Walter.BOM.IPopulate-1.htm">
+        <HelpTOCNode Title="Populate Method " Url="html/M-Walter.BOM.IPopulate-1.Populate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="071e0083-e17a-4098-9d57-6a7a6a05494b" Title="IRepositoryStorageLocation Interface" Url="html/T-Walter.BOM.IRepositoryStorageLocation.htm">
+      <HelpTOCNode Title="IRepositoryStorageLocation Members" Url="html/AllMembers.T-Walter.BOM.IRepositoryStorageLocation.htm" />
+      <HelpTOCNode Title="IRepositoryStorageLocation Methods" Url="html/Methods.T-Walter.BOM.IRepositoryStorageLocation.htm" />
+      <HelpTOCNode Id="68a40578-d81f-449a-a83f-cac8585006d4" Title="IRepositoryStorageLocation Properties" Url="html/Properties.T-Walter.BOM.IRepositoryStorageLocation.htm">
+        <HelpTOCNode Title="Details Property " Url="html/P-Walter.BOM.IRepositoryStorageLocation.Details.htm" />
+        <HelpTOCNode Title="StorageLocation Property " Url="html/P-Walter.BOM.IRepositoryStorageLocation.StorageLocation.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b2fc9bc7-e2ad-4e44-b688-5939cb2d32a8" Title="IToDoItem Interface" Url="html/T-Walter.BOM.IToDoItem.htm">
+      <HelpTOCNode Title="IToDoItem Members" Url="html/AllMembers.T-Walter.BOM.IToDoItem.htm" />
+      <HelpTOCNode Title="IToDoItem Methods" Url="html/Methods.T-Walter.BOM.IToDoItem.htm" />
+      <HelpTOCNode Id="b31d4be8-bfdb-40d3-a1a0-fba5b481187e" Title="IToDoItem Properties" Url="html/Properties.T-Walter.BOM.IToDoItem.htm">
+        <HelpTOCNode Title="CreatedUtc Property " Url="html/P-Walter.BOM.IToDoItem.CreatedUtc.htm" />
+        <HelpTOCNode Title="IsException Property " Url="html/P-Walter.BOM.IToDoItem.IsException.htm" />
+        <HelpTOCNode Title="IsOptional Property " Url="html/P-Walter.BOM.IToDoItem.IsOptional.htm" />
+        <HelpTOCNode Title="Reason Property " Url="html/P-Walter.BOM.IToDoItem.Reason.htm" />
+        <HelpTOCNode Title="Task Property " Url="html/P-Walter.BOM.IToDoItem.Task.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ec15b64a-e106-48ff-a273-eee1e90ac074" Title="ITryParse(T) Interface" Url="html/T-Walter.BOM.ITryParse-1.htm">
+      <HelpTOCNode Title="ITryParse Members" Url="html/AllMembers.T-Walter.BOM.ITryParse-1.htm" />
+      <HelpTOCNode Id="0edc7759-7ac9-4749-8461-77c3248c2f8e" Title="ITryParse Methods" Url="html/Methods.T-Walter.BOM.ITryParse-1.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/M-Walter.BOM.ITryParse-1.ToString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b97b59ae-cdf0-46f2-95c8-02950a3c3338" Title="IUserScreen Interface" Url="html/T-Walter.BOM.IUserScreen.htm">
+      <HelpTOCNode Title="IUserScreen Members" Url="html/AllMembers.T-Walter.BOM.IUserScreen.htm" />
+      <HelpTOCNode Title="IUserScreen Methods" Url="html/Methods.T-Walter.BOM.IUserScreen.htm" />
+      <HelpTOCNode Id="c690ca3e-027a-4ae6-b38d-8186f59d4caa" Title="IUserScreen Properties" Url="html/Properties.T-Walter.BOM.IUserScreen.htm">
+        <HelpTOCNode Title="ColorDepth Property " Url="html/P-Walter.BOM.IUserScreen.ColorDepth.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P-Walter.BOM.IUserScreen.Height.htm" />
+        <HelpTOCNode Title="Orientation Property " Url="html/P-Walter.BOM.IUserScreen.Orientation.htm" />
+        <HelpTOCNode Title="OrientationChanged Property " Url="html/P-Walter.BOM.IUserScreen.OrientationChanged.htm" />
+        <HelpTOCNode Title="PixelDepth Property " Url="html/P-Walter.BOM.IUserScreen.PixelDepth.htm" />
+        <HelpTOCNode Title="Scrollbars Property " Url="html/P-Walter.BOM.IUserScreen.Scrollbars.htm" />
+        <HelpTOCNode Title="UseTouchScreen Property " Url="html/P-Walter.BOM.IUserScreen.UseTouchScreen.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P-Walter.BOM.IUserScreen.Width.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="KnownIntentions Enumeration" Url="html/T-Walter.BOM.KnownIntentions.htm" />
+    <HelpTOCNode Id="0aad32c3-a3f0-4fd4-87b8-be7fcb82e704" Title="LicensedDomain Class" Url="html/T-Walter.BOM.LicensedDomain.htm">
+      <HelpTOCNode Title="LicensedDomain Members" Url="html/AllMembers.T-Walter.BOM.LicensedDomain.htm" />
+      <HelpTOCNode Title="LicensedDomain Methods" Url="html/Methods.T-Walter.BOM.LicensedDomain.htm" />
+      <HelpTOCNode Id="e0ab9015-6275-46a5-8371-38461903033f" Title="LicensedDomain Properties" Url="html/Properties.T-Walter.BOM.LicensedDomain.htm">
+        <HelpTOCNode Title="ApplicationTag Property " Url="html/P-Walter.BOM.LicensedDomain.ApplicationTag.htm" />
+        <HelpTOCNode Title="DomainName Property " Url="html/P-Walter.BOM.LicensedDomain.DomainName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="LicenseStatus Enumeration" Url="html/T-Walter.BOM.LicenseStatus.htm" />
+    <HelpTOCNode Id="34e81c85-0055-45dd-852e-74a4768df8ca" Title="LicenseViolationErrorException(T) Class" Url="html/T-Walter.BOM.LicenseViolationErrorException-1.htm">
+      <HelpTOCNode Title="LicenseViolationErrorException(T) Members" Url="html/AllMembers.T-Walter.BOM.LicenseViolationErrorException-1.htm" />
+      <HelpTOCNode Title="LicenseViolationErrorException(T) Constructor " Url="html/M-Walter.BOM.LicenseViolationErrorException-1.-ctor.htm" />
+      <HelpTOCNode Title="LicenseViolationErrorException(T) Methods" Url="html/Methods.T-Walter.BOM.LicenseViolationErrorException-1.htm" />
+      <HelpTOCNode Id="50d0be73-a816-4a5c-8ccd-9a546d539005" Title="LicenseViolationErrorException(T) Properties" Url="html/Properties.T-Walter.BOM.LicenseViolationErrorException-1.htm">
+        <HelpTOCNode Title="Licensed Property " Url="html/P-Walter.BOM.LicenseViolationErrorException-1.Licensed.htm" />
+        <HelpTOCNode Title="LicenseNeeded Property " Url="html/P-Walter.BOM.LicenseViolationErrorException-1.LicenseNeeded.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LicenseViolationErrorException(T) Events" Url="html/Events.T-Walter.BOM.LicenseViolationErrorException-1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="LinkType Enumeration" Url="html/T-Walter.BOM.LinkType.htm" />
+    <HelpTOCNode Id="9239162b-9885-4ab7-9605-55ba6d1a07e3" Title="Location Structure" Url="html/T-Walter.BOM.Location.htm">
+      <HelpTOCNode Title="Location Members" Url="html/AllMembers.T-Walter.BOM.Location.htm" />
+      <HelpTOCNode Id="c8e0891e-4cef-479c-a255-60d3474f35e2" Title="Location Methods" Url="html/Methods.T-Walter.BOM.Location.htm">
+        <HelpTOCNode Id="f67bf0e6-7036-47d0-8a7d-451e580932b5" Title="Equals Method " Url="html/Overload-Walter.BOM.Location.Equals.htm">
+          <HelpTOCNode Title="Equals Method (Nullable(Object))" Url="html/M-Walter.BOM.Location.Equals.htm" />
+          <HelpTOCNode Title="Equals Method (Location)" Url="html/M-Walter.BOM.Location.Equals_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-Walter.BOM.Location.GetHashCode.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1d70b4fd-8859-4dbe-b00f-25926b4edd04" Title="Location Operators" Url="html/Operators.T-Walter.BOM.Location.htm">
+        <HelpTOCNode Title="Equality Operator " Url="html/M-Walter.BOM.Location.op_Equality.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M-Walter.BOM.Location.op_Inequality.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba7c267d-3709-4807-8fb2-48866e902fb8" Title="Location Properties" Url="html/Properties.T-Walter.BOM.Location.htm">
+        <HelpTOCNode Title="City Property " Url="html/P-Walter.BOM.Location.City.htm" />
+        <HelpTOCNode Title="Country Property " Url="html/P-Walter.BOM.Location.Country.htm" />
+        <HelpTOCNode Title="LocationId Property " Url="html/P-Walter.BOM.Location.LocationId.htm" />
+        <HelpTOCNode Title="PostalCode Property " Url="html/P-Walter.BOM.Location.PostalCode.htm" />
+        <HelpTOCNode Title="PrimaryEmailContact Property " Url="html/P-Walter.BOM.Location.PrimaryEmailContact.htm" />
+        <HelpTOCNode Title="State Property " Url="html/P-Walter.BOM.Location.State.htm" />
+        <HelpTOCNode Title="Street Property " Url="html/P-Walter.BOM.Location.Street.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ef88d7ce-b3b9-499a-b155-942ea1977fdd" Title="LogEvents Class" Url="html/T-Walter.BOM.LogEvents.htm">
+      <HelpTOCNode Title="LogEvents Members" Url="html/AllMembers.T-Walter.BOM.LogEvents.htm" />
+      <HelpTOCNode Title="LogEvents Methods" Url="html/Methods.T-Walter.BOM.LogEvents.htm" />
+      <HelpTOCNode Id="70273dd5-34e6-4de9-b02a-232f819f77cd" Title="LogEvents Properties" Url="html/Properties.T-Walter.BOM.LogEvents.htm">
+        <HelpTOCNode Title="BOM_ToDo Property " Url="html/P-Walter.BOM.LogEvents.BOM_ToDo.htm" />
+        <HelpTOCNode Title="Cypher_DataTampered Property " Url="html/P-Walter.BOM.LogEvents.Cypher_DataTampered.htm" />
+        <HelpTOCNode Title="DATA_BulkFail Property " Url="html/P-Walter.BOM.LogEvents.DATA_BulkFail.htm" />
+        <HelpTOCNode Title="DATA_Configuration Property " Url="html/P-Walter.BOM.LogEvents.DATA_Configuration.htm" />
+        <HelpTOCNode Title="DATA_EventFailed Property " Url="html/P-Walter.BOM.LogEvents.DATA_EventFailed.htm" />
+        <HelpTOCNode Title="FireWall_ActionParametersNotProvided Property " Url="html/P-Walter.BOM.LogEvents.FireWall_ActionParametersNotProvided.htm" />
+        <HelpTOCNode Title="FireWall_Attack_Pattern Property " Url="html/P-Walter.BOM.LogEvents.FireWall_Attack_Pattern.htm" />
+        <HelpTOCNode Title="FireWall_CookieCountBad Property " Url="html/P-Walter.BOM.LogEvents.FireWall_CookieCountBad.htm" />
+        <HelpTOCNode Title="FireWall_DataCorrupt Property " Url="html/P-Walter.BOM.LogEvents.FireWall_DataCorrupt.htm" />
+        <HelpTOCNode Title="FireWall_GuardAction Property " Url="html/P-Walter.BOM.LogEvents.FireWall_GuardAction.htm" />
+        <HelpTOCNode Title="FireWall_Incident Property " Url="html/P-Walter.BOM.LogEvents.FireWall_Incident.htm" />
+        <HelpTOCNode Title="FireWall_Info Property " Url="html/P-Walter.BOM.LogEvents.FireWall_Info.htm" />
+        <HelpTOCNode Title="FireWall_License Property " Url="html/P-Walter.BOM.LogEvents.FireWall_License.htm" />
+        <HelpTOCNode Title="FireWall_Warning Property " Url="html/P-Walter.BOM.LogEvents.FireWall_Warning.htm" />
+        <HelpTOCNode Title="IO_FileChanged Property " Url="html/P-Walter.BOM.LogEvents.IO_FileChanged.htm" />
+        <HelpTOCNode Title="IO_MonitoringPathFailed Property " Url="html/P-Walter.BOM.LogEvents.IO_MonitoringPathFailed.htm" />
+        <HelpTOCNode Title="IO_RemoveFailed Property " Url="html/P-Walter.BOM.LogEvents.IO_RemoveFailed.htm" />
+        <HelpTOCNode Title="IO_SaveFileFailed Property " Url="html/P-Walter.BOM.LogEvents.IO_SaveFileFailed.htm" />
+        <HelpTOCNode Title="IO_UserCodeFailed Property " Url="html/P-Walter.BOM.LogEvents.IO_UserCodeFailed.htm" />
+        <HelpTOCNode Title="NET_Service_Event Property " Url="html/P-Walter.BOM.LogEvents.NET_Service_Event.htm" />
+        <HelpTOCNode Title="SMTP_NoMailConfigured Property " Url="html/P-Walter.BOM.LogEvents.SMTP_NoMailConfigured.htm" />
+        <HelpTOCNode Title="TALKING_Port_Access_Sniffed Property " Url="html/P-Walter.BOM.LogEvents.TALKING_Port_Access_Sniffed.htm" />
+        <HelpTOCNode Title="TALKING_Port_Access_TimeOut Property " Url="html/P-Walter.BOM.LogEvents.TALKING_Port_Access_TimeOut.htm" />
+        <HelpTOCNode Title="TALKING_Service_Upgrade_Failed Property " Url="html/P-Walter.BOM.LogEvents.TALKING_Service_Upgrade_Failed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ManagementTypes Enumeration" Url="html/T-Walter.BOM.ManagementTypes.htm" />
+    <HelpTOCNode Id="daf3a895-27a8-444c-9e75-37282838cc31" Title="NotImplementedByDesignException Class" Url="html/T-Walter.BOM.NotImplementedByDesignException.htm">
+      <HelpTOCNode Title="NotImplementedByDesignException Members" Url="html/AllMembers.T-Walter.BOM.NotImplementedByDesignException.htm" />
+      <HelpTOCNode Id="909718dd-b072-4c4b-887b-196cf65eb326" Title="NotImplementedByDesignException Constructor " Url="html/Overload-Walter.BOM.NotImplementedByDesignException.-ctor.htm">
+        <HelpTOCNode Title="NotImplementedByDesignException Constructor (Int32, Nullable(String), Nullable(String))" Url="html/M-Walter.BOM.NotImplementedByDesignException.-ctor.htm" />
+        <HelpTOCNode Title="NotImplementedByDesignException Constructor (String, Int32, Nullable(String), Nullable(String))" Url="html/M-Walter.BOM.NotImplementedByDesignException.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="NotImplementedByDesignException Methods" Url="html/Methods.T-Walter.BOM.NotImplementedByDesignException.htm" />
+      <HelpTOCNode Id="a6e0a543-7c9a-4553-b7c9-c5a9308be935" Title="NotImplementedByDesignException Properties" Url="html/Properties.T-Walter.BOM.NotImplementedByDesignException.htm">
+        <HelpTOCNode Title="CallerMemberName Property " Url="html/P-Walter.BOM.NotImplementedByDesignException.CallerMemberName.htm" />
+        <HelpTOCNode Title="FilePath Property " Url="html/P-Walter.BOM.NotImplementedByDesignException.FilePath.htm" />
+        <HelpTOCNode Title="Line Property " Url="html/P-Walter.BOM.NotImplementedByDesignException.Line.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="706a30a9-4cb6-49c1-97f5-476a1cb32321" Title="PropertyDoesNotAllowNullException Class" Url="html/T-Walter.BOM.PropertyDoesNotAllowNullException.htm">
+      <HelpTOCNode Title="PropertyDoesNotAllowNullException Members" Url="html/AllMembers.T-Walter.BOM.PropertyDoesNotAllowNullException.htm" />
+      <HelpTOCNode Id="6cc65303-e7fd-47d6-8272-983c6913ff1d" Title="PropertyDoesNotAllowNullException Constructor " Url="html/Overload-Walter.BOM.PropertyDoesNotAllowNullException.-ctor.htm">
+        <HelpTOCNode Title="PropertyDoesNotAllowNullException Constructor (String)" Url="html/M-Walter.BOM.PropertyDoesNotAllowNullException.-ctor.htm" />
+        <HelpTOCNode Title="PropertyDoesNotAllowNullException Constructor (String, String)" Url="html/M-Walter.BOM.PropertyDoesNotAllowNullException.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PropertyDoesNotAllowNullException Methods" Url="html/Methods.T-Walter.BOM.PropertyDoesNotAllowNullException.htm" />
+      <HelpTOCNode Id="f93cc484-a5b4-4b15-af28-366503f70cce" Title="PropertyDoesNotAllowNullException Properties" Url="html/Properties.T-Walter.BOM.PropertyDoesNotAllowNullException.htm">
+        <HelpTOCNode Title="PropertyName Property " Url="html/P-Walter.BOM.PropertyDoesNotAllowNullException.PropertyName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PropertyDoesNotAllowNullException Events" Url="html/Events.T-Walter.BOM.PropertyDoesNotAllowNullException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3ad49743-1edc-44cc-9a9c-f9d3ba179899" Title="RecoveryData Class" Url="html/T-Walter.BOM.RecoveryData.htm">
+      <HelpTOCNode Title="RecoveryData Members" Url="html/AllMembers.T-Walter.BOM.RecoveryData.htm" />
+      <HelpTOCNode Title="RecoveryData Constructor (DateTime, RecoveryType, String, String)" Url="html/M-Walter.BOM.RecoveryData.-ctor.htm" />
+      <HelpTOCNode Id="0761f0f8-a28b-4b93-9a3f-271dd128a52d" Title="RecoveryData Methods" Url="html/Methods.T-Walter.BOM.RecoveryData.htm">
+        <HelpTOCNode Id="86278a5f-efd6-4a3c-bb3f-66dad654d2f1" Title="Equals Method " Url="html/Overload-Walter.BOM.RecoveryData.Equals.htm">
+          <HelpTOCNode Title="Equals Method (Nullable(Object))" Url="html/M-Walter.BOM.RecoveryData.Equals.htm" />
+          <HelpTOCNode Title="Equals Method (Nullable(RecoveryData))" Url="html/M-Walter.BOM.RecoveryData.Equals_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-Walter.BOM.RecoveryData.GetHashCode.htm" />
+        <HelpTOCNode Title="SameRecovery Method " Url="html/M-Walter.BOM.RecoveryData.SameRecovery.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ab145b7c-08bf-4d25-bc8c-39b65a90c2ac" Title="RecoveryData Properties" Url="html/Properties.T-Walter.BOM.RecoveryData.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P-Walter.BOM.RecoveryData.Name.htm" />
+        <HelpTOCNode Title="ProtectedKey Property " Url="html/P-Walter.BOM.RecoveryData.ProtectedKey.htm" />
+        <HelpTOCNode Title="RecoveryType Property " Url="html/P-Walter.BOM.RecoveryData.RecoveryType.htm" />
+        <HelpTOCNode Title="UtcDate Property " Url="html/P-Walter.BOM.RecoveryData.UtcDate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="RecoveryType Enumeration" Url="html/T-Walter.BOM.RecoveryType.htm" />
+    <HelpTOCNode Id="647cb0eb-37d1-4efc-bffe-b19727fa0a1d" Title="ResourceNotFoundException Class" Url="html/T-Walter.BOM.ResourceNotFoundException.htm">
+      <HelpTOCNode Title="ResourceNotFoundException Members" Url="html/AllMembers.T-Walter.BOM.ResourceNotFoundException.htm" />
+      <HelpTOCNode Title="ResourceNotFoundException Constructor " Url="html/M-Walter.BOM.ResourceNotFoundException.-ctor.htm" />
+      <HelpTOCNode Title="ResourceNotFoundException Methods" Url="html/Methods.T-Walter.BOM.ResourceNotFoundException.htm" />
+      <HelpTOCNode Id="424f2c7a-44c1-435e-8fa4-8d0c29ea7f8b" Title="ResourceNotFoundException Properties" Url="html/Properties.T-Walter.BOM.ResourceNotFoundException.htm">
+        <HelpTOCNode Title="AvailableResources Property " Url="html/P-Walter.BOM.ResourceNotFoundException.AvailableResources.htm" />
+        <HelpTOCNode Title="ResourceName Property " Url="html/P-Walter.BOM.ResourceNotFoundException.ResourceName.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ResourceNotFoundException Events" Url="html/Events.T-Walter.BOM.ResourceNotFoundException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="ResponceExpected Enumeration" Url="html/T-Walter.BOM.ResponceExpected.htm" />
+    <HelpTOCNode Title="ScreenOrientations Enumeration" Url="html/T-Walter.BOM.ScreenOrientations.htm" />
+    <HelpTOCNode Title="SearchEngine Enumeration" Url="html/T-Walter.BOM.SearchEngine.htm" />
+    <HelpTOCNode Id="e8e43241-d4d2-4de5-a64e-d99b2ba50269" Title="ServiceInfo Class" Url="html/T-Walter.BOM.ServiceInfo.htm">
+      <HelpTOCNode Title="ServiceInfo Members" Url="html/AllMembers.T-Walter.BOM.ServiceInfo.htm" />
+      <HelpTOCNode Id="e03f0a1b-60fc-48f1-9aec-6eec3b65ea11" Title="ServiceInfo Constructor " Url="html/Overload-Walter.BOM.ServiceInfo.-ctor.htm">
+        <HelpTOCNode Title="ServiceInfo Constructor (String, String, String, String)" Url="html/M-Walter.BOM.ServiceInfo.-ctor.htm" />
+        <HelpTOCNode Title="ServiceInfo Constructor (String, String, String)" Url="html/M-Walter.BOM.ServiceInfo.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ServiceInfo Methods" Url="html/Methods.T-Walter.BOM.ServiceInfo.htm" />
+      <HelpTOCNode Id="8b80ec1f-6ac2-4add-923b-c5b081f1d3a3" Title="ServiceInfo Properties" Url="html/Properties.T-Walter.BOM.ServiceInfo.htm">
+        <HelpTOCNode Title="Arguments Property " Url="html/P-Walter.BOM.ServiceInfo.Arguments.htm" />
+        <HelpTOCNode Title="Description Property " Url="html/P-Walter.BOM.ServiceInfo.Description.htm" />
+        <HelpTOCNode Title="DisplayName Property " Url="html/P-Walter.BOM.ServiceInfo.DisplayName.htm" />
+        <HelpTOCNode Title="File Property " Url="html/P-Walter.BOM.ServiceInfo.File.htm" />
+        <HelpTOCNode Title="GetCurrentServicesByPid Property " Url="html/P-Walter.BOM.ServiceInfo.GetCurrentServicesByPid.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/P-Walter.BOM.ServiceInfo.Name.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d507795-d256-4668-b4bb-4f707fe2a816" Title="ShouldSerializeContractResolver Class" Url="html/T-Walter.BOM.ShouldSerializeContractResolver.htm">
+      <HelpTOCNode Title="ShouldSerializeContractResolver Members" Url="html/AllMembers.T-Walter.BOM.ShouldSerializeContractResolver.htm" />
+      <HelpTOCNode Id="f022584d-2b77-49e6-af13-a0a48c352d6b" Title="ShouldSerializeContractResolver Fields" Url="html/Fields.T-Walter.BOM.ShouldSerializeContractResolver.htm">
+        <HelpTOCNode Title="Instance Field" Url="html/F-Walter.BOM.ShouldSerializeContractResolver.Instance.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ShouldSerializeContractResolver Methods" Url="html/Methods.T-Walter.BOM.ShouldSerializeContractResolver.htm" />
+      <HelpTOCNode Title="ShouldSerializeContractResolver Properties" Url="html/Properties.T-Walter.BOM.ShouldSerializeContractResolver.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="874ef94a-74d5-42c6-bfa5-41de53778e35" Title="SingletonException(T) Class" Url="html/T-Walter.BOM.SingletonException-1.htm">
+      <HelpTOCNode Title="SingletonException(T) Members" Url="html/AllMembers.T-Walter.BOM.SingletonException-1.htm" />
+      <HelpTOCNode Title="SingletonException(T) Constructor " Url="html/M-Walter.BOM.SingletonException-1.-ctor.htm" />
+      <HelpTOCNode Title="SingletonException(T) Methods" Url="html/Methods.T-Walter.BOM.SingletonException-1.htm" />
+      <HelpTOCNode Title="SingletonException(T) Properties" Url="html/Properties.T-Walter.BOM.SingletonException-1.htm" />
+      <HelpTOCNode Title="SingletonException(T) Events" Url="html/Events.T-Walter.BOM.SingletonException-1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="StorageLocations Enumeration" Url="html/T-Walter.BOM.StorageLocations.htm" />
+    <HelpTOCNode Title="TcpPortAlias Enumeration" Url="html/T-Walter.BOM.TcpPortAlias.htm" />
+    <HelpTOCNode Id="4dd4b479-7dad-4fce-b45d-bbd9148d4b91" Title="WorkflowReport Class" Url="html/T-Walter.BOM.WorkflowReport.htm">
+      <HelpTOCNode Title="WorkflowReport Members" Url="html/AllMembers.T-Walter.BOM.WorkflowReport.htm" />
+      <HelpTOCNode Id="5f982328-8cb7-4d01-97e1-b2232d343e7c" Title="WorkflowReport Constructor " Url="html/Overload-Walter.BOM.WorkflowReport.-ctor.htm">
+        <HelpTOCNode Title="WorkflowReport Constructor (String, String)" Url="html/M-Walter.BOM.WorkflowReport.-ctor.htm" />
+        <HelpTOCNode Title="WorkflowReport Constructor (String, String, FileInfo)" Url="html/M-Walter.BOM.WorkflowReport.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="75060a67-b1ee-4c3c-965b-e152f0d0f266" Title="WorkflowReport Methods" Url="html/Methods.T-Walter.BOM.WorkflowReport.htm">
+        <HelpTOCNode Title="GetPdfData Method " Url="html/M-Walter.BOM.WorkflowReport.GetPdfData.htm" />
+        <HelpTOCNode Title="SetPdfData Method " Url="html/M-Walter.BOM.WorkflowReport.SetPdfData.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3b1c54b-5802-4428-9008-f30f09b599ac" Title="WorkflowReport Properties" Url="html/Properties.T-Walter.BOM.WorkflowReport.htm">
+        <HelpTOCNode Title="ProcessingParameters Property " Url="html/P-Walter.BOM.WorkflowReport.ProcessingParameters.htm" />
+        <HelpTOCNode Title="RawData Property " Url="html/P-Walter.BOM.WorkflowReport.RawData.htm" />
+        <HelpTOCNode Title="WorkFlowName Property " Url="html/P-Walter.BOM.WorkflowReport.WorkFlowName.htm" />
+        <HelpTOCNode Title="WorkFlowStepName Property " Url="html/P-Walter.BOM.WorkflowReport.WorkFlowStepName.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b5d23e92-1193-49c9-aeb6-28591750136e" Title="Walter.BOM.Data Namespace" Url="html/N-Walter.BOM.Data.htm">
+    <HelpTOCNode Id="5cde089b-bf56-49c1-871e-49462d5f8779" Title="InfoCard Class" Url="html/T-Walter.BOM.Data.InfoCard.htm">
+      <HelpTOCNode Title="InfoCard Members" Url="html/AllMembers.T-Walter.BOM.Data.InfoCard.htm" />
+      <HelpTOCNode Title="InfoCard Methods" Url="html/Methods.T-Walter.BOM.Data.InfoCard.htm" />
+      <HelpTOCNode Id="039b8846-9549-4e90-bbaf-f2860ad8d18e" Title="InfoCard Properties" Url="html/Properties.T-Walter.BOM.Data.InfoCard.htm">
+        <HelpTOCNode Title="Action Property " Url="html/P-Walter.BOM.Data.InfoCard.Action.htm" />
+        <HelpTOCNode Title="Body Property " Url="html/P-Walter.BOM.Data.InfoCard.Body.htm" />
+        <HelpTOCNode Title="Controler Property " Url="html/P-Walter.BOM.Data.InfoCard.Controler.htm" />
+        <HelpTOCNode Title="SubTitle Property " Url="html/P-Walter.BOM.Data.InfoCard.SubTitle.htm" />
+        <HelpTOCNode Title="Title Property " Url="html/P-Walter.BOM.Data.InfoCard.Title.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="76133d8e-1ad5-44b3-aeff-100bf15ab8ff" Title="Walter.BOM.ErrorCodes Namespace" Url="html/N-Walter.BOM.ErrorCodes.htm">
+    <HelpTOCNode Title="CodingErrors Enumeration" Url="html/T-Walter.BOM.ErrorCodes.CodingErrors.htm" />
+    <HelpTOCNode Title="ConfigurationErrors Enumeration" Url="html/T-Walter.BOM.ErrorCodes.ConfigurationErrors.htm" />
+    <HelpTOCNode Title="ConfigurationTasks Enumeration" Url="html/T-Walter.BOM.ErrorCodes.ConfigurationTasks.htm" />
+    <HelpTOCNode Title="RuntimeConfigurationErrors Enumeration" Url="html/T-Walter.BOM.ErrorCodes.RuntimeConfigurationErrors.htm" />
+    <HelpTOCNode Title="RunTimeErrors Enumeration" Url="html/T-Walter.BOM.ErrorCodes.RunTimeErrors.htm" />
+    <HelpTOCNode Title="SecurityCode Enumeration" Url="html/T-Walter.BOM.ErrorCodes.SecurityCode.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="eac36886-e7bb-46d7-9ab1-03d165f3f8bd" Title="Walter.BOM.Geo Namespace" Url="html/N-Walter.BOM.Geo.htm">
+    <HelpTOCNode Id="5c3c802d-74b1-4a53-be1b-e64d87c47b34" Title="GeoExtensionMethods Class" Url="html/T-Walter.BOM.Geo.GeoExtensionMethods.htm">
+      <HelpTOCNode Title="GeoExtensionMethods Members" Url="html/AllMembers.T-Walter.BOM.Geo.GeoExtensionMethods.htm" />
+      <HelpTOCNode Id="45088687-d737-48e2-9a16-61c99997eb8a" Title="GeoExtensionMethods Methods" Url="html/Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm">
+        <HelpTOCNode Title="Contaigns Method " Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" />
+        <HelpTOCNode Title="Exists Method " Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" />
+        <HelpTOCNode Title="Expand Method " Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Expand.htm" />
+        <HelpTOCNode Id="3ebc70a9-bc16-4ecc-a315-b922da577a30" Title="GetCountryName Method " Url="html/Overload-Walter.BOM.Geo.GeoExtensionMethods.GetCountryName.htm">
+          <HelpTOCNode Title="GetCountryName Method (Nullable(GeoLocation))" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetCountryName.htm" />
+          <HelpTOCNode Title="GetCountryName Method (GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetCountryName_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="851e819d-65b7-471a-b8a7-ece2423972c9" Title="GetInternationalCountryName Method " Url="html/Overload-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName.htm">
+          <HelpTOCNode Title="GetInternationalCountryName Method (Nullable(GeoLocation))" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_1.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (Nullable(GeoLocation), CultureInfo)" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_2.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (GeoLocation, CultureInfo)" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_3.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (Nullable(GeoLocation), String)" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_4.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (GeoLocation, String)" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetLanguage Method " Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetLanguage.htm" />
+        <HelpTOCNode Title="GetLocation Method " Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetLocation.htm" />
+        <HelpTOCNode Title="GetTwoLetterIsoCountryCode Method " Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.GetTwoLetterIsoCountryCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="GeoLocation Enumeration" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
+    <HelpTOCNode Id="4f788a47-1bec-4b0f-b66d-4a006f14c267" Title="GeoLocationMapping Class" Url="html/T-Walter.BOM.Geo.GeoLocationMapping.htm">
+      <HelpTOCNode Title="GeoLocationMapping Members" Url="html/AllMembers.T-Walter.BOM.Geo.GeoLocationMapping.htm" />
+      <HelpTOCNode Id="ac8e4fe5-e336-4c69-96bf-058559e0dd10" Title="GeoLocationMapping Methods" Url="html/Methods.T-Walter.BOM.Geo.GeoLocationMapping.htm">
+        <HelpTOCNode Title="Africa Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.Africa.htm" />
+        <HelpTOCNode Title="Asia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.Asia.htm" />
+        <HelpTOCNode Title="BalticStates Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.BalticStates.htm" />
+        <HelpTOCNode Title="Caribbean Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.Caribbean.htm" />
+        <HelpTOCNode Title="CentralAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.CentralAmerica.htm" />
+        <HelpTOCNode Title="CentralAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.CentralAsia.htm" />
+        <HelpTOCNode Title="CentralEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.CentralEurope.htm" />
+        <HelpTOCNode Title="EastAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.EastAsia.htm" />
+        <HelpTOCNode Title="EasternAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.EasternAfrica.htm" />
+        <HelpTOCNode Title="EasternEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.EasternEurope.htm" />
+        <HelpTOCNode Title="Europe Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.Europe.htm" />
+        <HelpTOCNode Title="EuropeanUnion Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.EuropeanUnion.htm" />
+        <HelpTOCNode Title="GetCapitol Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetCapitol.htm" />
+        <HelpTOCNode Id="16e13764-2a47-4b6a-b5ee-ddae853963f2" Title="GetCountryName Method " Url="html/Overload-Walter.BOM.Geo.GeoLocationMapping.GetCountryName.htm">
+          <HelpTOCNode Title="GetCountryName Method (GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetCountryName.htm" />
+          <HelpTOCNode Title="GetCountryName Method (Nullable(GeoLocation))" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetCountryName_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a2f3a235-26ec-417b-b6e1-fa1843e0f431" Title="GetInternationalCountryName Method " Url="html/Overload-Walter.BOM.Geo.GeoLocationMapping.GetInternationalCountryName.htm">
+          <HelpTOCNode Title="GetInternationalCountryName Method (String, GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetInternationalCountryName.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (CultureInfo, GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetInternationalCountryName_1.htm" />
+          <HelpTOCNode Title="GetInternationalCountryName Method (GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetInternationalCountryName_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetLocation Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetLocation.htm" />
+        <HelpTOCNode Title="GetLocations Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.GetLocations.htm" />
+        <HelpTOCNode Title="IsAnBalticState Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsAnBalticState.htm" />
+        <HelpTOCNode Title="IsCentralEuropean Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsCentralEuropean.htm" />
+        <HelpTOCNode Title="IsCountry Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsCountry.htm" />
+        <HelpTOCNode Title="IsIn Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsIn.htm" />
+        <HelpTOCNode Title="IsInAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInAfrica.htm" />
+        <HelpTOCNode Title="IsInAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInAsia.htm" />
+        <HelpTOCNode Title="IsInCentralAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInCentralAmerica.htm" />
+        <HelpTOCNode Title="IsInCentralAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInCentralAsia.htm" />
+        <HelpTOCNode Title="IsInEastAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInEastAsia.htm" />
+        <HelpTOCNode Title="IsInEasternAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInEasternAfrica.htm" />
+        <HelpTOCNode Title="IsInEasternEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInEasternEurope.htm" />
+        <HelpTOCNode Title="IsInEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInEurope.htm" />
+        <HelpTOCNode Title="IsInLatinAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInLatinAmerica.htm" />
+        <HelpTOCNode Title="IsInMiddleAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInMiddleAfrica.htm" />
+        <HelpTOCNode Title="IsInNorthAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInNorthAfrica.htm" />
+        <HelpTOCNode Title="IsInNorthAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInNorthAmerica.htm" />
+        <HelpTOCNode Title="IsInOceania Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInOceania.htm" />
+        <HelpTOCNode Title="IsInSouthAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInSouthAfrica.htm" />
+        <HelpTOCNode Title="IsInSouthAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInSouthAmerica.htm" />
+        <HelpTOCNode Title="IsInSouthAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInSouthAsia.htm" />
+        <HelpTOCNode Title="IsInSouthEastAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInSouthEastAsia.htm" />
+        <HelpTOCNode Title="IsInSouthEasternEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInSouthEasternEurope.htm" />
+        <HelpTOCNode Title="IsInTheAmericas Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInTheAmericas.htm" />
+        <HelpTOCNode Title="IsInTheCaribbean Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInTheCaribbean.htm" />
+        <HelpTOCNode Title="IsInTheEuropeanUnion Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInTheEuropeanUnion.htm" />
+        <HelpTOCNode Title="IsInTheMiddleEast Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInTheMiddleEast.htm" />
+        <HelpTOCNode Title="IsInThePacific Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInThePacific.htm" />
+        <HelpTOCNode Title="IsInWesterAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInWesterAfrica.htm" />
+        <HelpTOCNode Title="IsInWesternAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInWesternAsia.htm" />
+        <HelpTOCNode Title="IsInWesternEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.IsInWesternEurope.htm" />
+        <HelpTOCNode Title="LatinAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.LatinAmerica.htm" />
+        <HelpTOCNode Title="MiddleAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.MiddleAfrica.htm" />
+        <HelpTOCNode Title="MiddleEast Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.MiddleEast.htm" />
+        <HelpTOCNode Title="NorthAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.NorthAfrica.htm" />
+        <HelpTOCNode Title="NorthAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.NorthAmerica.htm" />
+        <HelpTOCNode Title="Oceania Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.Oceania.htm" />
+        <HelpTOCNode Title="Pacific Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.Pacific.htm" />
+        <HelpTOCNode Title="SouthAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SouthAfrica.htm" />
+        <HelpTOCNode Title="SouthAmerica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SouthAmerica.htm" />
+        <HelpTOCNode Title="SouthAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SouthAsia.htm" />
+        <HelpTOCNode Title="SouthEastAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SouthEastAsia.htm" />
+        <HelpTOCNode Title="SouthEasternEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SouthEasternEurope.htm" />
+        <HelpTOCNode Title="SupportedCountries Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SupportedCountries.htm" />
+        <HelpTOCNode Title="SupportedIsoCodes Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.SupportedIsoCodes.htm" />
+        <HelpTOCNode Title="TheAmericas Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.TheAmericas.htm" />
+        <HelpTOCNode Title="TryGetCountryName Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.TryGetCountryName.htm" />
+        <HelpTOCNode Title="TryGetGeoLocation Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.TryGetGeoLocation.htm" />
+        <HelpTOCNode Title="TryGetIsoCode Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.TryGetIsoCode.htm" />
+        <HelpTOCNode Id="a17dc1e8-524b-4d56-9a1b-d98feaae1477" Title="TryGetValue Method " Url="html/Overload-Walter.BOM.Geo.GeoLocationMapping.TryGetValue.htm">
+          <HelpTOCNode Title="TryGetValue Method (Nullable(String), GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.TryGetValue.htm" />
+          <HelpTOCNode Title="TryGetValue Method (ReadOnlySpan(Char), GeoLocation)" Url="html/M-Walter.BOM.Geo.GeoLocationMapping.TryGetValue_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="WesterAfrica Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.WesterAfrica.htm" />
+        <HelpTOCNode Title="WesternAsia Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.WesternAsia.htm" />
+        <HelpTOCNode Title="WesternEurope Method " Url="html/M-Walter.BOM.Geo.GeoLocationMapping.WesternEurope.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c284a892-4b60-4e29-864f-441b0be532a3" Title="GeoLocationMapping Properties" Url="html/Properties.T-Walter.BOM.Geo.GeoLocationMapping.htm">
+        <HelpTOCNode Title="CountryNamesToIsoCodes Property " Url="html/P-Walter.BOM.Geo.GeoLocationMapping.CountryNamesToIsoCodes.htm" />
+        <HelpTOCNode Title="LocationTable Property " Url="html/P-Walter.BOM.Geo.GeoLocationMapping.LocationTable.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ad924de-678a-4f4f-aeb0-985adf80292d" Title="IGeoBuffer Interface" Url="html/T-Walter.BOM.Geo.IGeoBuffer.htm">
+      <HelpTOCNode Title="IGeoBuffer Members" Url="html/AllMembers.T-Walter.BOM.Geo.IGeoBuffer.htm" />
+      <HelpTOCNode Id="cae13d5b-997b-4da3-83e9-3a5bc344d6a2" Title="IGeoBuffer Methods" Url="html/Methods.T-Walter.BOM.Geo.IGeoBuffer.htm">
+        <HelpTOCNode Title="Remember Method " Url="html/M-Walter.BOM.Geo.IGeoBuffer.Remember.htm" />
+        <HelpTOCNode Title="TryGet Method " Url="html/M-Walter.BOM.Geo.IGeoBuffer.TryGet.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a6459fca-26d6-4818-b69b-ce40aa48e444" Title="IGeoResolver Interface" Url="html/T-Walter.BOM.Geo.IGeoResolver.htm">
+      <HelpTOCNode Title="IGeoResolver Members" Url="html/AllMembers.T-Walter.BOM.Geo.IGeoResolver.htm" />
+      <HelpTOCNode Id="ede9fb50-2b62-4fb8-b100-c79636b5129d" Title="IGeoResolver Methods" Url="html/Methods.T-Walter.BOM.Geo.IGeoResolver.htm">
+        <HelpTOCNode Id="38d9ba03-15e9-4709-a8e1-647c71e6d042" Title="QueryLocation Method " Url="html/Overload-Walter.BOM.Geo.IGeoResolver.QueryLocation.htm">
+          <HelpTOCNode Title="QueryLocation Method (IPAddress)" Url="html/M-Walter.BOM.Geo.IGeoResolver.QueryLocation.htm" />
+          <HelpTOCNode Title="QueryLocation Method (IPAddress[])" Url="html/M-Walter.BOM.Geo.IGeoResolver.QueryLocation_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7fc8da0d-8c9e-4799-b59b-d170b2ccf137" Title="IISPResolver Interface" Url="html/T-Walter.BOM.Geo.IISPResolver.htm">
+      <HelpTOCNode Title="IISPResolver Members" Url="html/AllMembers.T-Walter.BOM.Geo.IISPResolver.htm" />
+      <HelpTOCNode Id="3c6c6aba-5173-4515-99c1-93b6b5d317e5" Title="IISPResolver Methods" Url="html/Methods.T-Walter.BOM.Geo.IISPResolver.htm">
+        <HelpTOCNode Title="QueryASN Method " Url="html/M-Walter.BOM.Geo.IISPResolver.QueryASN.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="47331094-0bb9-485a-8aba-1249424ef4d5" Title="ILatLongResolver Interface" Url="html/T-Walter.BOM.Geo.ILatLongResolver.htm">
+      <HelpTOCNode Title="ILatLongResolver Members" Url="html/AllMembers.T-Walter.BOM.Geo.ILatLongResolver.htm" />
+      <HelpTOCNode Id="64005d5f-468b-449a-bc0c-3d7ae7410d44" Title="ILatLongResolver Methods" Url="html/Methods.T-Walter.BOM.Geo.ILatLongResolver.htm">
+        <HelpTOCNode Title="QueryMapLocation Method " Url="html/M-Walter.BOM.Geo.ILatLongResolver.QueryMapLocation.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c0ce3eb-2cb8-446a-a884-deda2cba2877" Title="IMapLocation Interface" Url="html/T-Walter.BOM.Geo.IMapLocation.htm">
+      <HelpTOCNode Title="IMapLocation Members" Url="html/AllMembers.T-Walter.BOM.Geo.IMapLocation.htm" />
+      <HelpTOCNode Id="4081634b-a7c1-40dc-9364-371b882161c0" Title="IMapLocation Methods" Url="html/Methods.T-Walter.BOM.Geo.IMapLocation.htm">
+        <HelpTOCNode Title="GoogleMapLocation Method " Url="html/M-Walter.BOM.Geo.IMapLocation.GoogleMapLocation.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="25850540-8810-467d-8444-0aa06d5bb74a" Title="IMapLocation Properties" Url="html/Properties.T-Walter.BOM.Geo.IMapLocation.htm">
+        <HelpTOCNode Title="CIDR Property " Url="html/P-Walter.BOM.Geo.IMapLocation.CIDR.htm" />
+        <HelpTOCNode Title="City Property " Url="html/P-Walter.BOM.Geo.IMapLocation.City.htm" />
+        <HelpTOCNode Title="Country Property " Url="html/P-Walter.BOM.Geo.IMapLocation.Country.htm" />
+        <HelpTOCNode Title="Expires Property " Url="html/P-Walter.BOM.Geo.IMapLocation.Expires.htm" />
+        <HelpTOCNode Title="Geo Property " Url="html/P-Walter.BOM.Geo.IMapLocation.Geo.htm" />
+        <HelpTOCNode Title="IPAddress Property " Url="html/P-Walter.BOM.Geo.IMapLocation.IPAddress.htm" />
+        <HelpTOCNode Title="Latitute Property " Url="html/P-Walter.BOM.Geo.IMapLocation.Latitute.htm" />
+        <HelpTOCNode Title="Longitude Property " Url="html/P-Walter.BOM.Geo.IMapLocation.Longitude.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0229726f-ac88-4601-874d-5ab3a4e2d362" Title="InMemmoryGeoBuffer Class" Url="html/T-Walter.BOM.Geo.InMemmoryGeoBuffer.htm">
+      <HelpTOCNode Title="InMemmoryGeoBuffer Members" Url="html/AllMembers.T-Walter.BOM.Geo.InMemmoryGeoBuffer.htm" />
+      <HelpTOCNode Title="InMemmoryGeoBuffer Constructor " Url="html/M-Walter.BOM.Geo.InMemmoryGeoBuffer.-ctor.htm" />
+      <HelpTOCNode Id="1c544baa-63bd-48db-9900-8bb0961cc4a0" Title="InMemmoryGeoBuffer Methods" Url="html/Methods.T-Walter.BOM.Geo.InMemmoryGeoBuffer.htm">
+        <HelpTOCNode Title="Remember Method " Url="html/M-Walter.BOM.Geo.InMemmoryGeoBuffer.Remember.htm" />
+        <HelpTOCNode Title="TryGet Method " Url="html/M-Walter.BOM.Geo.InMemmoryGeoBuffer.TryGet.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="29ef9238-0c25-403c-9eb2-2760f7ce6a58" Title="LocationExtensionMethods Class" Url="html/T-Walter.BOM.Geo.LocationExtensionMethods.htm">
+      <HelpTOCNode Title="LocationExtensionMethods Members" Url="html/AllMembers.T-Walter.BOM.Geo.LocationExtensionMethods.htm" />
+      <HelpTOCNode Id="2652955b-1218-4850-bf34-05c59a4daa5a" Title="LocationExtensionMethods Methods" Url="html/Methods.T-Walter.BOM.Geo.LocationExtensionMethods.htm">
+        <HelpTOCNode Id="530d5c28-74e8-459d-a2b5-ff0bedcef136" Title="LatitudeDegrees Method " Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.LatitudeDegrees.htm">
+          <HelpTOCNode Title="LatitudeDegrees Method (Decimal)" Url="html/M-Walter.BOM.Geo.LocationExtensionMethods.LatitudeDegrees.htm" />
+          <HelpTOCNode Title="LatitudeDegrees Method (Double)" Url="html/M-Walter.BOM.Geo.LocationExtensionMethods.LatitudeDegrees_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ba6399e3-28fb-4019-901f-fef3943ffb46" Title="LongitudeDegrees Method " Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.LongitudeDegrees.htm">
+          <HelpTOCNode Title="LongitudeDegrees Method (Decimal)" Url="html/M-Walter.BOM.Geo.LocationExtensionMethods.LongitudeDegrees.htm" />
+          <HelpTOCNode Title="LongitudeDegrees Method (Double)" Url="html/M-Walter.BOM.Geo.LocationExtensionMethods.LongitudeDegrees_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e31f482-63f6-4c87-8809-8223e938da42" Title="SimpleLatLong Structure" Url="html/T-Walter.BOM.Geo.SimpleLatLong.htm">
+      <HelpTOCNode Title="SimpleLatLong Members" Url="html/AllMembers.T-Walter.BOM.Geo.SimpleLatLong.htm" />
+      <HelpTOCNode Id="5e9cb560-d3db-4f52-9747-bf74a7c190e7" Title="SimpleLatLong Fields" Url="html/Fields.T-Walter.BOM.Geo.SimpleLatLong.htm">
+        <HelpTOCNode Title="UnKnown Field" Url="html/F-Walter.BOM.Geo.SimpleLatLong.UnKnown.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f3c6e788-965d-482a-9fd9-ce97ca6d798d" Title="SimpleLatLong Methods" Url="html/Methods.T-Walter.BOM.Geo.SimpleLatLong.htm">
+        <HelpTOCNode Id="54be1df7-f99b-4b2e-a2df-2704352df8e5" Title="Equals Method " Url="html/Overload-Walter.BOM.Geo.SimpleLatLong.Equals.htm">
+          <HelpTOCNode Title="Equals Method (Nullable(Object))" Url="html/M-Walter.BOM.Geo.SimpleLatLong.Equals.htm" />
+          <HelpTOCNode Title="Equals Method (SimpleLatLong)" Url="html/M-Walter.BOM.Geo.SimpleLatLong.Equals_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M-Walter.BOM.Geo.SimpleLatLong.GetHashCode.htm" />
+        <HelpTOCNode Title="Load Method " Url="html/M-Walter.BOM.Geo.SimpleLatLong.Load.htm" />
+        <HelpTOCNode Title="ToCsv Method " Url="html/M-Walter.BOM.Geo.SimpleLatLong.ToCsv.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-Walter.BOM.Geo.SimpleLatLong.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="87dcdc53-5986-4b76-86b4-49a1940eb8e3" Title="SimpleLatLong Operators" Url="html/Operators.T-Walter.BOM.Geo.SimpleLatLong.htm">
+        <HelpTOCNode Title="Equality Operator " Url="html/M-Walter.BOM.Geo.SimpleLatLong.op_Equality.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M-Walter.BOM.Geo.SimpleLatLong.op_Inequality.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aee578ab-6bec-42ea-b505-05f645c4b66f" Title="SimpleLatLong Properties" Url="html/Properties.T-Walter.BOM.Geo.SimpleLatLong.htm">
+        <HelpTOCNode Title="AccuracyRadiosKm Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.AccuracyRadiosKm.htm" />
+        <HelpTOCNode Title="City Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.City.htm" />
+        <HelpTOCNode Title="Country Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.Country.htm" />
+        <HelpTOCNode Title="IPAddress Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.IPAddress.htm" />
+        <HelpTOCNode Title="Lat Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.Lat.htm" />
+        <HelpTOCNode Title="Latitude Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.Latitude.htm" />
+        <HelpTOCNode Title="Lng Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.Lng.htm" />
+        <HelpTOCNode Title="Longitude Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.Longitude.htm" />
+        <HelpTOCNode Title="RecordedUtc Property " Url="html/P-Walter.BOM.Geo.SimpleLatLong.RecordedUtc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ab9ae943-e707-4cc8-bedf-3d5c7376f96a" Title="SimpleMapLocation Class" Url="html/T-Walter.BOM.Geo.SimpleMapLocation.htm">
+      <HelpTOCNode Title="SimpleMapLocation Members" Url="html/AllMembers.T-Walter.BOM.Geo.SimpleMapLocation.htm" />
+      <HelpTOCNode Id="1de139df-0cbd-4d5e-a8ee-f9b73a4cee26" Title="SimpleMapLocation Constructor " Url="html/Overload-Walter.BOM.Geo.SimpleMapLocation.-ctor.htm">
+        <HelpTOCNode Title="SimpleMapLocation Constructor (GeoLocation)" Url="html/M-Walter.BOM.Geo.SimpleMapLocation.-ctor.htm" />
+        <HelpTOCNode Title="SimpleMapLocation Constructor (IMapLocation)" Url="html/M-Walter.BOM.Geo.SimpleMapLocation.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="edfd91e7-2c67-404a-bada-a3a2788a5979" Title="SimpleMapLocation Methods" Url="html/Methods.T-Walter.BOM.Geo.SimpleMapLocation.htm">
+        <HelpTOCNode Title="GoogleMapLocation Method " Url="html/M-Walter.BOM.Geo.SimpleMapLocation.GoogleMapLocation.htm" />
+        <HelpTOCNode Title="Parse Method " Url="html/M-Walter.BOM.Geo.SimpleMapLocation.Parse.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M-Walter.BOM.Geo.SimpleMapLocation.ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b7b94a4-3e11-4449-897a-7cb1b620854f" Title="SimpleMapLocation Properties" Url="html/Properties.T-Walter.BOM.Geo.SimpleMapLocation.htm">
+        <HelpTOCNode Title="AccuracyRadius Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.AccuracyRadius.htm" />
+        <HelpTOCNode Title="CIDR Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.CIDR.htm" />
+        <HelpTOCNode Title="City Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.City.htm" />
+        <HelpTOCNode Title="Country Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.Country.htm" />
+        <HelpTOCNode Title="Expires Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.Expires.htm" />
+        <HelpTOCNode Title="Geo Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.Geo.htm" />
+        <HelpTOCNode Title="IPAddress Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.IPAddress.htm" />
+        <HelpTOCNode Title="Latitute Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.Latitute.htm" />
+        <HelpTOCNode Title="Longitude Property " Url="html/P-Walter.BOM.Geo.SimpleMapLocation.Longitude.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a347a502-0786-4963-9373-31070c65427a" Title="Walter.BOM.Violations Namespace" Url="html/N-Walter.BOM.Violations.htm">
+    <HelpTOCNode Id="6b4df6df-698d-46d6-90ff-9f2d17a3dd93" Title="IContentSecurityPolicyViolation Interface" Url="html/T-Walter.BOM.Violations.IContentSecurityPolicyViolation.htm">
+      <HelpTOCNode Title="IContentSecurityPolicyViolation Members" Url="html/AllMembers.T-Walter.BOM.Violations.IContentSecurityPolicyViolation.htm" />
+      <HelpTOCNode Title="IContentSecurityPolicyViolation Methods" Url="html/Methods.T-Walter.BOM.Violations.IContentSecurityPolicyViolation.htm" />
+      <HelpTOCNode Id="4ab591a2-aa9d-485e-b523-13f63c579a26" Title="IContentSecurityPolicyViolation Properties" Url="html/Properties.T-Walter.BOM.Violations.IContentSecurityPolicyViolation.htm">
+        <HelpTOCNode Title="CIDR Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.CIDR.htm" />
+        <HelpTOCNode Title="Country Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.Country.htm" />
+        <HelpTOCNode Title="CreatedUtc Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.CreatedUtc.htm" />
+        <HelpTOCNode Title="Details Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.Details.htm" />
+        <HelpTOCNode Title="DnsName Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.DnsName.htm" />
+        <HelpTOCNode Title="IncidentId Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.IncidentId.htm" />
+        <HelpTOCNode Title="IPAddress Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.IPAddress.htm" />
+        <HelpTOCNode Title="ProviderGeoLocation Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.ProviderGeoLocation.htm" />
+        <HelpTOCNode Title="Proxy Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolation.Proxy.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6f5036ea-31b7-443b-baf5-92fa762aacc7" Title="IContentSecurityPolicyViolationsReport Interface" Url="html/T-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.htm">
+      <HelpTOCNode Title="IContentSecurityPolicyViolationsReport Members" Url="html/AllMembers.T-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.htm" />
+      <HelpTOCNode Title="IContentSecurityPolicyViolationsReport Methods" Url="html/Methods.T-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.htm" />
+      <HelpTOCNode Id="f5f58d41-1f7a-45e5-80e8-5ccbda2825e4" Title="IContentSecurityPolicyViolationsReport Properties" Url="html/Properties.T-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.htm">
+        <HelpTOCNode Title="BlockedUri Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.BlockedUri.htm" />
+        <HelpTOCNode Title="Disposition Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.Disposition.htm" />
+        <HelpTOCNode Title="DocumentUri Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.DocumentUri.htm" />
+        <HelpTOCNode Title="EffectiveDirective Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.EffectiveDirective.htm" />
+        <HelpTOCNode Title="LineNumber Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.LineNumber.htm" />
+        <HelpTOCNode Title="OriginalPolicy Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.OriginalPolicy.htm" />
+        <HelpTOCNode Title="Referrer Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.Referrer.htm" />
+        <HelpTOCNode Title="ScriptSample Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.ScriptSample.htm" />
+        <HelpTOCNode Title="SourceFile Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.SourceFile.htm" />
+        <HelpTOCNode Title="StatusCode Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.StatusCode.htm" />
+        <HelpTOCNode Title="ViolatedDirective Property " Url="html/P-Walter.BOM.Violations.IContentSecurityPolicyViolationsReport.ViolatedDirective.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5883bbfc-b74c-46c0-90ee-d03224f066bd" Title="Walter.Casts Namespace" Url="html/N-Walter.Casts.htm">
+    <HelpTOCNode Id="caf61379-1eff-4939-82e4-c4d9b50a61c7" Title="ObjectExtensions Class" Url="html/T-Walter.Casts.ObjectExtensions.htm">
+      <HelpTOCNode Title="ObjectExtensions Members" Url="html/AllMembers.T-Walter.Casts.ObjectExtensions.htm" />
+      <HelpTOCNode Id="b4d38f89-cbae-4eaf-bcd9-e3b78030dcaf" Title="ObjectExtensions Methods" Url="html/Methods.T-Walter.Casts.ObjectExtensions.htm">
+        <HelpTOCNode Id="26085763-09b8-4ccb-bca1-b47399e250ee" Title="CanCast Method " Url="html/Overload-Walter.Casts.ObjectExtensions.CanCast.htm">
+          <HelpTOCNode Title="CanCast Method (Nullable(Object), Type)" Url="html/M-Walter.Casts.ObjectExtensions.CanCast.htm" />
+          <HelpTOCNode Title="CanCast Method (String, Type)" Url="html/M-Walter.Casts.ObjectExtensions.CanCast_1.htm" />
+          <HelpTOCNode Title="CanCast Method (NameValueCollection, Type)" Url="html/M-Walter.Casts.ObjectExtensions.CanCast_2.htm" />
+          <HelpTOCNode Title="CanCast Method (IDictionary(String, String), Type)" Url="html/M-Walter.Casts.ObjectExtensions.CanCast_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToCheckSum Method " Url="html/M-Walter.Casts.ObjectExtensions.ToCheckSum.htm" />
+        <HelpTOCNode Title="ToJson Method " Url="html/M-Walter.Casts.ObjectExtensions.ToJson.htm" />
+        <HelpTOCNode Id="68c1272f-d1af-4118-b3b5-2cccab4addf1" Title="ToType Method " Url="html/Overload-Walter.Casts.ObjectExtensions.ToType.htm">
+          <HelpTOCNode Title="ToType Method (NameValueCollection, Type)" Url="html/M-Walter.Casts.ObjectExtensions.ToType.htm" />
+          <HelpTOCNode Title="ToType Method (IDictionary(String, String), Type)" Url="html/M-Walter.Casts.ObjectExtensions.ToType_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TryAsNameValueCollection Method " Url="html/M-Walter.Casts.ObjectExtensions.TryAsNameValueCollection.htm" />
+        <HelpTOCNode Title="TryCast(T) Method " Url="html/M-Walter.Casts.ObjectExtensions.TryCast--1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9f4bcf04-c72d-469c-9e02-af7489e62fa3" Title="Walter.IO Namespace" Url="html/N-Walter.IO.htm">
+    <HelpTOCNode Id="5ef21dcd-6df8-4b31-953a-cab3324802fd" Title="IDiskChanges Interface" Url="html/T-Walter.IO.IDiskChanges.htm">
+      <HelpTOCNode Title="IDiskChanges Members" Url="html/AllMembers.T-Walter.IO.IDiskChanges.htm" />
+      <HelpTOCNode Title="IDiskChanges Methods" Url="html/Methods.T-Walter.IO.IDiskChanges.htm" />
+      <HelpTOCNode Id="00633fae-ad16-4d66-9320-992017904b27" Title="IDiskChanges Properties" Url="html/Properties.T-Walter.IO.IDiskChanges.htm">
+        <HelpTOCNode Title="ActiveOnCapture Property " Url="html/P-Walter.IO.IDiskChanges.ActiveOnCapture.htm" />
+        <HelpTOCNode Title="ChangeType Property " Url="html/P-Walter.IO.IDiskChanges.ChangeType.htm" />
+        <HelpTOCNode Title="ExecutingBinary Property " Url="html/P-Walter.IO.IDiskChanges.ExecutingBinary.htm" />
+        <HelpTOCNode Title="ExitCode Property " Url="html/P-Walter.IO.IDiskChanges.ExitCode.htm" />
+        <HelpTOCNode Title="ExitTime Property " Url="html/P-Walter.IO.IDiskChanges.ExitTime.htm" />
+        <HelpTOCNode Title="File Property " Url="html/P-Walter.IO.IDiskChanges.File.htm" />
+        <HelpTOCNode Title="IsSuspicious Property " Url="html/P-Walter.IO.IDiskChanges.IsSuspicious.htm" />
+        <HelpTOCNode Title="MachineName Property " Url="html/P-Walter.IO.IDiskChanges.MachineName.htm" />
+        <HelpTOCNode Title="ProcessId Property " Url="html/P-Walter.IO.IDiskChanges.ProcessId.htm" />
+        <HelpTOCNode Title="ProcessName Property " Url="html/P-Walter.IO.IDiskChanges.ProcessName.htm" />
+        <HelpTOCNode Title="RecordedUtc Property " Url="html/P-Walter.IO.IDiskChanges.RecordedUtc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b3fc2ed-ef8f-4952-8d4f-bb4622e411eb" Title="IDiskGuard Interface" Url="html/T-Walter.IO.IDiskGuard.htm">
+      <HelpTOCNode Title="IDiskGuard Members" Url="html/AllMembers.T-Walter.IO.IDiskGuard.htm" />
+      <HelpTOCNode Id="ae099d61-8a0a-47a6-a01f-9ad43293ed22" Title="IDiskGuard Methods" Url="html/Methods.T-Walter.IO.IDiskGuard.htm">
+        <HelpTOCNode Id="2a1cab60-f16c-43ba-a24e-a5ded9cc9f62" Title="StartMonitoring Method " Url="html/Overload-Walter.IO.IDiskGuard.StartMonitoring.htm">
+          <HelpTOCNode Title="StartMonitoring Method (DirectoryInfo, String, Boolean)" Url="html/M-Walter.IO.IDiskGuard.StartMonitoring.htm" />
+          <HelpTOCNode Title="StartMonitoring Method (String, Boolean)" Url="html/M-Walter.IO.IDiskGuard.StartMonitoring_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="06b0b26e-11db-4907-b9fe-44353b56c747" Title="StopMonitoring Method " Url="html/Overload-Walter.IO.IDiskGuard.StopMonitoring.htm">
+          <HelpTOCNode Title="StopMonitoring Method (DirectoryInfo, String)" Url="html/M-Walter.IO.IDiskGuard.StopMonitoring.htm" />
+          <HelpTOCNode Title="StopMonitoring Method (String)" Url="html/M-Walter.IO.IDiskGuard.StopMonitoring_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="dbbe6aea-2c9e-48ae-928f-4175bcc568d7" Title="IDiskGuard Events" Url="html/Events.T-Walter.IO.IDiskGuard.htm">
+        <HelpTOCNode Title="OnDiskManipulation Event" Url="html/E-Walter.IO.IDiskGuard.OnDiskManipulation.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5aa708bc-ca88-4a32-87d9-61d857209ebc" Title="Walter.IO.CommandLine Namespace" Url="html/N-Walter.IO.CommandLine.htm">
+    <HelpTOCNode Id="8aa75056-57c6-4aaa-89bc-8d51967300c7" Title="ProcessImage Class" Url="html/T-Walter.IO.CommandLine.ProcessImage.htm">
+      <HelpTOCNode Title="ProcessImage Members" Url="html/AllMembers.T-Walter.IO.CommandLine.ProcessImage.htm" />
+      <HelpTOCNode Title="ProcessImage Constructor (Process)" Url="html/M-Walter.IO.CommandLine.ProcessImage.-ctor.htm" />
+      <HelpTOCNode Id="1ff721ed-bfbd-47dc-8756-c67ba838cd2d" Title="ProcessImage Methods" Url="html/Methods.T-Walter.IO.CommandLine.ProcessImage.htm">
+        <HelpTOCNode Title="Parse Method " Url="html/M-Walter.IO.CommandLine.ProcessImage.Parse.htm" />
+        <HelpTOCNode Title="TryParse Method " Url="html/M-Walter.IO.CommandLine.ProcessImage.TryParse.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3365663e-296c-4293-9d9a-c58670a7429d" Title="ProcessImage Properties" Url="html/Properties.T-Walter.IO.CommandLine.ProcessImage.htm">
+        <HelpTOCNode Title="Arguments Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.Arguments.htm" />
+        <HelpTOCNode Title="Executable Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.Executable.htm" />
+        <HelpTOCNode Title="ExitCode Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.ExitCode.htm" />
+        <HelpTOCNode Title="ExitTimeUtc Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.ExitTimeUtc.htm" />
+        <HelpTOCNode Title="HasExited Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.HasExited.htm" />
+        <HelpTOCNode Title="MachineName Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.MachineName.htm" />
+        <HelpTOCNode Title="ProcessId Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.ProcessId.htm" />
+        <HelpTOCNode Title="ProcessName Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.ProcessName.htm" />
+        <HelpTOCNode Title="RecordedUtc Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.RecordedUtc.htm" />
+        <HelpTOCNode Title="StartTimeUtc Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.StartTimeUtc.htm" />
+        <HelpTOCNode Title="WorkingDirectory Property " Url="html/P-Walter.IO.CommandLine.ProcessImage.WorkingDirectory.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5d5f2f2f-021a-4aa0-89c5-f0c4286aea92" Title="Walter.IO.EventArguments Namespace" Url="html/N-Walter.IO.EventArguments.htm">
+    <HelpTOCNode Id="023043fc-e355-457c-8ff0-64f4063e6064" Title="DiskManipulationEventArgs Class" Url="html/T-Walter.IO.EventArguments.DiskManipulationEventArgs.htm">
+      <HelpTOCNode Title="DiskManipulationEventArgs Members" Url="html/AllMembers.T-Walter.IO.EventArguments.DiskManipulationEventArgs.htm" />
+      <HelpTOCNode Title="DiskManipulationEventArgs Constructor " Url="html/M-Walter.IO.EventArguments.DiskManipulationEventArgs.-ctor.htm" />
+      <HelpTOCNode Title="DiskManipulationEventArgs Methods" Url="html/Methods.T-Walter.IO.EventArguments.DiskManipulationEventArgs.htm" />
+      <HelpTOCNode Id="88d7a0a8-322c-42a4-8cc2-03e6a1cf14e8" Title="DiskManipulationEventArgs Properties" Url="html/Properties.T-Walter.IO.EventArguments.DiskManipulationEventArgs.htm">
+        <HelpTOCNode Title="Changed Property " Url="html/P-Walter.IO.EventArguments.DiskManipulationEventArgs.Changed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="edb5f8c6-f59f-4fc7-8c36-0e26003a9b31" Title="ServiceConfigurationException Class" Url="html/T-Walter.IO.EventArguments.ServiceConfigurationException.htm">
+      <HelpTOCNode Title="ServiceConfigurationException Members" Url="html/AllMembers.T-Walter.IO.EventArguments.ServiceConfigurationException.htm" />
+      <HelpTOCNode Id="b5bb9150-238b-4e8c-9165-74b975342fb9" Title="ServiceConfigurationException Constructor " Url="html/Overload-Walter.IO.EventArguments.ServiceConfigurationException.-ctor.htm">
+        <HelpTOCNode Title="ServiceConfigurationException Constructor " Url="html/M-Walter.IO.EventArguments.ServiceConfigurationException.-ctor.htm" />
+        <HelpTOCNode Title="ServiceConfigurationException Constructor (String)" Url="html/M-Walter.IO.EventArguments.ServiceConfigurationException.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ServiceConfigurationException Methods" Url="html/Methods.T-Walter.IO.EventArguments.ServiceConfigurationException.htm" />
+      <HelpTOCNode Title="ServiceConfigurationException Properties" Url="html/Properties.T-Walter.IO.EventArguments.ServiceConfigurationException.htm" />
+      <HelpTOCNode Title="ServiceConfigurationException Events" Url="html/Events.T-Walter.IO.EventArguments.ServiceConfigurationException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

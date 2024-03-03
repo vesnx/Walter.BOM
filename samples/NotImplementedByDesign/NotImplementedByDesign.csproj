@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishAot>true</PublishAot>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<Authors>Walter Verhoeven, Lambert Snellinx</Authors>
+		<Company>VESNX SA</Company>
+		<Product>Business objects for FRamwork products</Product>
+		<Copyright>©2024 VESNX SA, all rights reserved.</Copyright>		
+		<Title>Business objects used by several ASP-WAF products</Title>
+		<Description>This package uses the Walter.BOM nuget package:; fel free to copy any code for your products.			
+		</Description>
+		<PackageProjectUrl>https://github.com/vesnx/Walter.BOM</PackageProjectUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Walter.BOM" Version="2024.3.3.842" />
+	</ItemGroup>
+
+</Project>
