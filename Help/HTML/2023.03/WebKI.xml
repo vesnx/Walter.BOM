@@ -450,7 +450,7 @@
   <HelpKINode Title="ConsentCookie enumeration member" Url="html/T-Walter.BOM.CookieName.htm" />
   <HelpKINode Title="ConsentCookie field" Url="html/F-Walter.BOM.CookieName.ConsentCookie.htm" />
   <HelpKINode Title="Contacts property" Url="html/P-Walter.BOM.ILicense.Contacts.htm" />
-  <HelpKINode Title="Contaigns method" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" />
+  <HelpKINode Title="Contains method" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" />
   <HelpKINode Title="ContentSecurityPolicyViolation enumeration member" Url="html/T-Walter.BOM.ErrorCodes.SecurityCode.htm" />
   <HelpKINode Title="ContentSecurityPolicyViolation field" Url="html/F-Walter.BOM.ErrorCodes.SecurityCode.ContentSecurityPolicyViolation.htm" />
   <HelpKINode Title="ContentTypes enumeration" Url="html/T-Walter.BOM.ContentTypes.htm" />
@@ -539,8 +539,8 @@
   <HelpKINode Title="CSPViolation field" Url="html/F-Walter.BOM.FireWallContexts.CSPViolation.htm" />
   <HelpKINode Title="CSS enumeration member" Url="html/T-Walter.BOM.ResponceExpected.htm" />
   <HelpKINode Title="css enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
-  <HelpKINode Title="CSS field" Url="html/F-Walter.BOM.ResponceExpected.CSS.htm" />
   <HelpKINode Title="css field" Url="html/F-Walter.BOM.ContentTypes.css.htm" />
+  <HelpKINode Title="CSS field" Url="html/F-Walter.BOM.ResponceExpected.CSS.htm" />
   <HelpKINode Title="Cuba enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
   <HelpKINode Title="Cuba field" Url="html/F-Walter.BOM.Geo.GeoLocation.Cuba.htm" />
   <HelpKINode Title="Curacao enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
@@ -866,12 +866,15 @@
   <HelpKINode Title="FirewallBlockReasonAuditEntry class">
     <HelpKINode Title="about FirewallBlockReasonAuditEntry class" Url="html/T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
+    <HelpKINode Title="constructor" Url="html/M-Walter.BOM.FirewallBlockReasonAuditEntry.-ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
     <HelpKINode Title="methods" Url="html/Methods.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
     <HelpKINode Title="properties" Url="html/Properties.T-Walter.BOM.FirewallBlockReasonAuditEntry.htm" />
   </HelpKINode>
   <HelpKINode Title="FirewallBlockReasonAuditEntry.Actual property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Actual.htm" />
   <HelpKINode Title="FirewallBlockReasonAuditEntry.Allowed property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Allowed.htm" />
   <HelpKINode Title="FirewallBlockReasonAuditEntry.Evaluated property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Evaluated.htm" />
+  <HelpKINode Title="FirewallBlockReasonAuditEntry.FirewallBlockReasonAuditEntry constructor" Url="html/M-Walter.BOM.FirewallBlockReasonAuditEntry.-ctor.htm" />
   <HelpKINode Title="FirewallBlockReasonAuditEntry.Reasons property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Reasons.htm" />
   <HelpKINode Title="FirewallBlockReasonAuditEntry.TimeSpan property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.TimeSpan.htm" />
   <HelpKINode Title="FirewallBlockReasonAuditEntry.Violates property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Violates.htm" />
@@ -1021,7 +1024,7 @@
     <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.BOM.Geo.GeoExtensionMethods.htm" />
     <HelpKINode Title="methods" Url="html/Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm" />
   </HelpKINode>
-  <HelpKINode Title="GeoExtensionMethods.Contaigns method" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" />
+  <HelpKINode Title="GeoExtensionMethods.Contains method" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" />
   <HelpKINode Title="GeoExtensionMethods.Exists method" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" />
   <HelpKINode Title="GeoExtensionMethods.Expand method" Url="html/M-Walter.BOM.Geo.GeoExtensionMethods.Expand.htm" />
   <HelpKINode Title="GeoExtensionMethods.GetCountryName method" Url="html/Overload-Walter.BOM.Geo.GeoExtensionMethods.GetCountryName.htm" />
@@ -1476,10 +1479,10 @@
   <HelpKINode Title="GuineaBissau field" Url="html/F-Walter.BOM.Geo.GeoLocation.GuineaBissau.htm" />
   <HelpKINode Title="Guyana enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
   <HelpKINode Title="Guyana field" Url="html/F-Walter.BOM.Geo.GeoLocation.Guyana.htm" />
-  <HelpKINode Title="gzip enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
   <HelpKINode Title="GZip enumeration member" Url="html/T-Walter.BOM.ResponceExpected.htm" />
-  <HelpKINode Title="gzip field" Url="html/F-Walter.BOM.ContentTypes.gzip.htm" />
+  <HelpKINode Title="gzip enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
   <HelpKINode Title="GZip field" Url="html/F-Walter.BOM.ResponceExpected.GZip.htm" />
+  <HelpKINode Title="gzip field" Url="html/F-Walter.BOM.ContentTypes.gzip.htm" />
   <HelpKINode Title="HackerTool enumeration member" Url="html/T-Walter.BOM.KnownIntentions.htm" />
   <HelpKINode Title="HackerTool field" Url="html/F-Walter.BOM.KnownIntentions.HackerTool.htm" />
   <HelpKINode Title="Haiti enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
@@ -1535,10 +1538,10 @@
   <HelpKINode Title="HoneyPotTrap field" Url="html/F-Walter.BOM.FirewallBlockReasons.HoneyPotTrap.htm" />
   <HelpKINode Title="HongKong enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
   <HelpKINode Title="HongKong field" Url="html/F-Walter.BOM.Geo.GeoLocation.HongKong.htm" />
-  <HelpKINode Title="html enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
   <HelpKINode Title="Html enumeration member" Url="html/T-Walter.BOM.ResponceExpected.htm" />
-  <HelpKINode Title="Html field" Url="html/F-Walter.BOM.ResponceExpected.Html.htm" />
+  <HelpKINode Title="html enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
   <HelpKINode Title="html field" Url="html/F-Walter.BOM.ContentTypes.html.htm" />
+  <HelpKINode Title="Html field" Url="html/F-Walter.BOM.ResponceExpected.Html.htm" />
   <HelpKINode Title="HttpErrorCode enumeration member" Url="html/T-Walter.BOM.GuardResponse.htm" />
   <HelpKINode Title="HttpErrorCode field" Url="html/F-Walter.BOM.GuardResponse.HttpErrorCode.htm" />
   <HelpKINode Title="HTTP_80 enumeration member" Url="html/T-Walter.BOM.TcpPortAlias.htm" />
@@ -1964,10 +1967,10 @@
   <HelpKINode Title="InterceptLocations.InAppIIS field" Url="html/F-Walter.BOM.InterceptLocations.InAppIIS.htm" />
   <HelpKINode Title="InterceptLocations.InServerlIIS field" Url="html/F-Walter.BOM.InterceptLocations.InServerlIIS.htm" />
   <HelpKINode Title="InterceptLocations.None field" Url="html/F-Walter.BOM.InterceptLocations.None.htm" />
-  <HelpKINode Title="InterNetServiceProvider enumeration member" Url="html/T-Walter.BOM.BlacklistLevelHoneyPotPortAccessLevel.htm" />
   <HelpKINode Title="InternetServiceProvider enumeration member" Url="html/T-Walter.BOM.FireWallReportType.htm" />
-  <HelpKINode Title="InterNetServiceProvider field" Url="html/F-Walter.BOM.BlacklistLevelHoneyPotPortAccessLevel.InterNetServiceProvider.htm" />
+  <HelpKINode Title="InterNetServiceProvider enumeration member" Url="html/T-Walter.BOM.BlacklistLevelHoneyPotPortAccessLevel.htm" />
   <HelpKINode Title="InternetServiceProvider field" Url="html/F-Walter.BOM.FireWallReportType.InternetServiceProvider.htm" />
+  <HelpKINode Title="InterNetServiceProvider field" Url="html/F-Walter.BOM.BlacklistLevelHoneyPotPortAccessLevel.InterNetServiceProvider.htm" />
   <HelpKINode Title="InternetServiceProviderBlocksUserAgent enumeration member" Url="html/T-Walter.BOM.IncidentAssertType.htm" />
   <HelpKINode Title="InternetServiceProviderBlocksUserAgent field" Url="html/F-Walter.BOM.IncidentAssertType.InternetServiceProviderBlocksUserAgent.htm" />
   <HelpKINode Title="IO_FileChanged property" Url="html/P-Walter.BOM.LogEvents.IO_FileChanged.htm" />
@@ -2370,6 +2373,8 @@
   </HelpKINode>
   <HelpKINode Title="LocationExtensionMethods.LatitudeDegrees method" Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.LatitudeDegrees.htm" />
   <HelpKINode Title="LocationExtensionMethods.LongitudeDegrees method" Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.LongitudeDegrees.htm" />
+  <HelpKINode Title="LocationExtensionMethods.ToDmsLatitude method" Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.ToDmsLatitude.htm" />
+  <HelpKINode Title="LocationExtensionMethods.ToDmsLongitude method" Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.ToDmsLongitude.htm" />
   <HelpKINode Title="LocationId property" Url="html/P-Walter.BOM.Location.LocationId.htm" />
   <HelpKINode Title="LocationTable property" Url="html/P-Walter.BOM.Geo.GeoLocationMapping.LocationTable.htm" />
   <HelpKINode Title="LogEvents class" Url="html/AllMembers.T-Walter.BOM.LogEvents.htm" />
@@ -2406,8 +2411,7 @@
   <HelpKINode Title="LogEvents.TALKING_Service_Upgrade_Failed property" Url="html/P-Walter.BOM.LogEvents.TALKING_Service_Upgrade_Failed.htm" />
   <HelpKINode Title="LogException(Of T) method" Url="html/M-Walter.BOM.IExceptionConsole.LogException--1.htm" />
   <HelpKINode Title="LogException&lt;T&gt; method" Url="html/M-Walter.BOM.IExceptionConsole.LogException--1.htm" />
-  <HelpKINode Title="LogNotImplementedByDesignException(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException--1.htm" />
-  <HelpKINode Title="LogNotImplementedByDesignException&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException--1.htm" />
+  <HelpKINode Title="LogNotImplementedByDesignException method" Url="html/Overload-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException-.htm" />
   <HelpKINode Title="LogTodo(Of T) method" Url="html/M-Walter.BOM.IExceptionConsole.LogTodo--1.htm" />
   <HelpKINode Title="LogTodo&lt;T&gt; method" Url="html/M-Walter.BOM.IExceptionConsole.LogTodo--1.htm" />
   <HelpKINode Title="Longitude property" Url="html/P-Walter.BOM.Geo.IMapLocation.Longitude.htm" />
@@ -2806,6 +2810,7 @@
   <HelpKINode Title="ProcessImage class">
     <HelpKINode Title="about ProcessImage class" Url="html/T-Walter.IO.CommandLine.ProcessImage.htm" />
     <HelpKINode Title="all members" Url="html/AllMembers.T-Walter.IO.CommandLine.ProcessImage.htm" />
+    <HelpKINode Title="events" Url="html/Events.T-Walter.IO.CommandLine.ProcessImage.htm" />
     <HelpKINode Title="methods" Url="html/Methods.T-Walter.IO.CommandLine.ProcessImage.htm" />
     <HelpKINode Title="properties" Url="html/Properties.T-Walter.IO.CommandLine.ProcessImage.htm" />
   </HelpKINode>
@@ -2874,9 +2879,9 @@
   <HelpKINode Title="Reason property" Url="html/P-Walter.BOM.IToDoItem.Reason.htm" />
   <HelpKINode Title="Reasons property" Url="html/P-Walter.BOM.DiskSecurityViolationException.Reasons.htm" />
   <HelpKINode Title="Reasons property" Url="html/P-Walter.BOM.FirewallBlockReasonAuditEntry.Reasons.htm" />
-  <HelpKINode Title="RecordedUTC property" Url="html/P-Walter.BOM.AuditLog.RecordedUTC.htm" />
   <HelpKINode Title="RecordedUtc property" Url="html/P-Walter.BOM.Geo.SimpleLatLong.RecordedUtc.htm" />
   <HelpKINode Title="RecordedUtc property" Url="html/P-Walter.IO.CommandLine.ProcessImage.RecordedUtc.htm" />
+  <HelpKINode Title="RecordedUTC property" Url="html/P-Walter.BOM.AuditLog.RecordedUTC.htm" />
   <HelpKINode Title="RecordedUtc property" Url="html/P-Walter.IO.IDiskChanges.RecordedUtc.htm" />
   <HelpKINode Title="RecoveryData class" Url="html/AllMembers.T-Walter.BOM.RecoveryData.htm" />
   <HelpKINode Title="RecoveryData class" Url="html/T-Walter.BOM.RecoveryData.htm" />
@@ -3135,8 +3140,7 @@
   <HelpKINode Title="ServiceCollectionExtension.AddExceptionConsole(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddExceptionConsole--1.htm" />
   <HelpKINode Title="ServiceCollectionExtension.AddExceptionConsole&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddExceptionConsole--1.htm" />
   <HelpKINode Title="ServiceCollectionExtension.AddServiceTypeIfMissing method" Url="html/Overload-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.AddServiceTypeIfMissing-.htm" />
-  <HelpKINode Title="ServiceCollectionExtension.LogNotImplementedByDesignException(Of T) method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException--1.htm" />
-  <HelpKINode Title="ServiceCollectionExtension.LogNotImplementedByDesignException&lt;T&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException--1.htm" />
+  <HelpKINode Title="ServiceCollectionExtension.LogNotImplementedByDesignException method" Url="html/Overload-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.LogNotImplementedByDesignException-.htm" />
   <HelpKINode Title="ServiceCollectionExtension.ReUseScoped(Of T, TBase) method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.ReUseScoped--2.htm" />
   <HelpKINode Title="ServiceCollectionExtension.ReUseScoped&lt;T, TBase&gt; method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.ReUseScoped--2.htm" />
   <HelpKINode Title="ServiceCollectionExtension.ReUseSingleton(Of T, TBase) method" Url="html/M-Microsoft.Extensions.DependencyInjection.ServiceCollectionExtension.ReUseSingleton--2.htm" />
@@ -3451,8 +3455,8 @@
   <HelpKINode Title="Telnet_23 field" Url="html/F-Walter.BOM.TcpPortAlias.Telnet_23.htm" />
   <HelpKINode Title="TemplateFailed enumeration member" Url="html/T-Walter.BOM.ErrorCodes.RunTimeErrors.htm" />
   <HelpKINode Title="TemplateFailed field" Url="html/F-Walter.BOM.ErrorCodes.RunTimeErrors.TemplateFailed.htm" />
-  <HelpKINode Title="text enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
   <HelpKINode Title="Text enumeration member" Url="html/T-Walter.BOM.ResponceExpected.htm" />
+  <HelpKINode Title="text enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
   <HelpKINode Title="Text field" Url="html/F-Walter.BOM.ResponceExpected.Text.htm" />
   <HelpKINode Title="text field" Url="html/F-Walter.BOM.ContentTypes.text.htm" />
   <HelpKINode Title="Thailand enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
@@ -3469,6 +3473,8 @@
   <HelpKINode Title="Title property" Url="html/P-Walter.BOM.Data.InfoCard.Title.htm" />
   <HelpKINode Title="ToCheckSum method" Url="html/M-Walter.Casts.ObjectExtensions.ToCheckSum.htm" />
   <HelpKINode Title="ToCsv method" Url="html/M-Walter.BOM.Geo.SimpleLatLong.ToCsv.htm" />
+  <HelpKINode Title="ToDmsLatitude method" Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.ToDmsLatitude.htm" />
+  <HelpKINode Title="ToDmsLongitude method" Url="html/Overload-Walter.BOM.Geo.LocationExtensionMethods.ToDmsLongitude.htm" />
   <HelpKINode Title="ToDo property" Url="html/P-Walter.BOM.IExceptionConsoleData.ToDo.htm" />
   <HelpKINode Title="Togo enumeration member" Url="html/T-Walter.BOM.Geo.GeoLocation.htm" />
   <HelpKINode Title="Togo field" Url="html/F-Walter.BOM.Geo.GeoLocation.Togo.htm" />
@@ -3900,10 +3906,10 @@
   <HelpKINode Title="WrongUserId field" Url="html/F-Walter.BOM.FirewallBlockReasons.WrongUserId.htm" />
   <HelpKINode Title="WrongUserType enumeration member" Url="html/T-Walter.BOM.IncidentAssertType.htm" />
   <HelpKINode Title="WrongUserType field" Url="html/F-Walter.BOM.IncidentAssertType.WrongUserType.htm" />
-  <HelpKINode Title="XML enumeration member" Url="html/T-Walter.BOM.ResponceExpected.htm" />
   <HelpKINode Title="Xml enumeration member" Url="html/T-Walter.BOM.ContentTypes.htm" />
-  <HelpKINode Title="Xml field" Url="html/F-Walter.BOM.ContentTypes.Xml.htm" />
+  <HelpKINode Title="XML enumeration member" Url="html/T-Walter.BOM.ResponceExpected.htm" />
   <HelpKINode Title="XML field" Url="html/F-Walter.BOM.ResponceExpected.XML.htm" />
+  <HelpKINode Title="Xml field" Url="html/F-Walter.BOM.ContentTypes.Xml.htm" />
   <HelpKINode Title="Yahoo enumeration member" Url="html/T-Walter.BOM.SearchEngine.htm" />
   <HelpKINode Title="Yahoo field" Url="html/F-Walter.BOM.SearchEngine.Yahoo.htm" />
   <HelpKINode Title="Yandex enumeration member" Url="html/T-Walter.BOM.SearchEngine.htm" />

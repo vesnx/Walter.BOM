@@ -27,7 +27,7 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Gets the two letter ISO country code." />
+      <MSHelp:Attr Name="Abstract" Value="Retrieves the two-letter ISO country code associated with the specified ." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
@@ -490,7 +490,7 @@
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm" target="_self">GeoExtensionMethods Methods</a>
 <div class="Hidden">
 <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" target="_self">Contaigns Method </a>
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" target="_self">Contains Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" target="_self">Exists Method </a>
@@ -649,18 +649,7 @@
         <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
         
         <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
-          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
-            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
-              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          
           <!-- Content Starts Here -->
           <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
       <div class="content">
@@ -671,7 +660,7 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Gets the two letter ISO country code.
+   Retrieves the two-letter ISO country code associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a>.
    </div>
                 <p />
     <b>Namespace:</b> 
@@ -686,7 +675,12 @@
 <span class="keyword">public</span>:
 <span class="keyword">static</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a>^ <span class="identifier">GetTwoLetterIsoCountryCode</span>(
 	<a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a>^ <span class="parameter">location</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="location"><dt><span class="parameterItalic">location</span></dt><dd>Type: <a href="T-Walter.BOM.Geo.GeoLocation.htm">Walter.BOM.Geo<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>GeoLocation</a><br />The location.</dd></dl></div><h4 class="subHeading">Return Value</h4>country code or empty string if not supported</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="location"><dt><span class="parameterItalic">location</span></dt><dd>Type: <a href="T-Walter.BOM.Geo.GeoLocation.htm">Walter.BOM.Geo<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>GeoLocation</a><br />The geographic location for which to obtain the two-letter ISO country code.</dd></dl></div><h4 class="subHeading">Return Value</h4>
+   A string containing the two-letter ISO country code corresponding to the provided <span class="parameterItalic">location</span>.
+   If the <span class="parameterItalic">location</span> does not have a corresponding country code or is not supported, an empty string is returned.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   This method is essential for applications that need to perform operations based on country-specific standards or data, such as displaying country flags, formatting phone numbers, or setting locale-specific settings. The two-letter ISO country code is a standardized code defined by the International Organization for Standardization (ISO), which represents countries, dependent territories, and special areas of geographical interest.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -695,7 +689,7 @@
         <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter" />
             </div>
             <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>

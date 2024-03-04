@@ -618,18 +618,7 @@
         <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
         
         <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
-          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
-            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
-              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          
           <!-- Content Starts Here -->
           <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
       <div class="content">
@@ -665,12 +654,10 @@
                         <img src="../icons/static.gif" alt="Static member" title="Static member" />
                       </td>
                       <td>
-                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm">Contaigns</a>
+                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm">Contains</a>
                       </td>
                       <td>
-                        <div class="summary">
-   test if one location is included in another
-   </div>
+                        <div class="summary">Determines if a given country or region is associated with another specified country or region.</div>
                       </td>
                     </tr>
                     <tr data="public;static;declared;notNetfw;">
@@ -697,7 +684,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   Expands the specified locations if there are regions and return the set into it's most detailed option.
+   Expands the specified array of locations, converting any regions within the array into their constituent countries, and returns a comprehensive array of individual GeoLocation values.
    </div>
                       </td>
                     </tr>
@@ -711,7 +698,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   Get the Country Name belonging to a country code
+   Retrieves the en-US name of the country associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> value.
    </div>
                       </td>
                     </tr>
@@ -739,7 +726,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   Gets the name of the international country.
+   Retrieves the localized name of the country associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> value,
+   based on the current UI culture of the system thread. if the location is null "<strong>UnKnown</strong>" is returned
    </div>
                       </td>
                     </tr>
@@ -753,7 +741,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   Gets the name of the international country.
+   Retrieves the localized name of the country associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> value,
+   based on the current UI culture of the system thread.
    </div>
                       </td>
                     </tr>
@@ -767,7 +756,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   Gets the name of the international country.
+   Retrieves the name of the country associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> value, localized according to the provided <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a>.
    </div>
                       </td>
                     </tr>
@@ -791,7 +780,7 @@
                         <img src="../icons/static.gif" alt="Static member" title="Static member" />
                       </td>
                       <td>
-                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_4.htm">GetInternationalCountryName(Nullable<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="fs">&lt;'</span><span class="nu">(</span></span>GeoLocation<span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="fs">&gt;</span><span class="nu">)</span></span>, String)</a>
+                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_4.htm">GetInternationalCountryName(GeoLocation, GeoLocation)</a>
                       </td>
                       <td>
                         <div class="summary">
@@ -805,7 +794,21 @@
                         <img src="../icons/static.gif" alt="Static member" title="Static member" />
                       </td>
                       <td>
-                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_5.htm">GetInternationalCountryName(GeoLocation, String)</a>
+                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_5.htm">GetInternationalCountryName(Nullable<span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="fs">&lt;'</span><span class="nu">(</span></span>GeoLocation<span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="fs">&gt;</span><span class="nu">)</span></span>, String)</a>
+                      </td>
+                      <td>
+                        <div class="summary">
+   Gets the name of the international country.
+   </div>
+                      </td>
+                    </tr>
+                    <tr data="public;static;declared;notNetfw;">
+                      <td>
+                        <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+                        <img src="../icons/static.gif" alt="Static member" title="Static member" />
+                      </td>
+                      <td>
+                        <a href="M-Walter.BOM.Geo.GeoExtensionMethods.GetInternationalCountryName_6.htm">GetInternationalCountryName(GeoLocation, String)</a>
                       </td>
                       <td>
                         <div class="summary">
@@ -823,7 +826,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   Will try and get the language of a location for a culture based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.name" target="_blank">Name</a></div>
+   Attempts to determine the primary language associated with the culture represented by the provided <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a> object.
+   </div>
                       </td>
                     </tr>
                     <tr data="public;static;declared;notNetfw;">
@@ -836,7 +840,8 @@
                       </td>
                       <td>
                         <div class="summary">
-   Will try and get the location for a culture based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.twoletterisolanguagename" target="_blank">TwoLetterISOLanguageName</a></div>
+   Retrieves the geographic location associated with a specified <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a> object, utilizing its two-letter ISO language name.
+   </div>
                       </td>
                     </tr>
                     <tr data="public;static;declared;notNetfw;">
@@ -849,7 +854,7 @@
                       </td>
                       <td>
                         <div class="summary">
-   Gets the two letter ISO country code.
+   Retrieves the two-letter ISO country code associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a>.
    </div>
                       </td>
                     </tr>
@@ -881,7 +886,7 @@
         <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter" />
             </div>
             <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>

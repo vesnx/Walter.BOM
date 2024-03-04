@@ -27,9 +27,10 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Expands the specified locations if there are regions and return the set into it's most detailed option." />
+      <MSHelp:Attr Name="Abstract" Value="Expands the specified array of locations, converting any regions within the array into their constituent countries, and returns a comprehensive array of individual GeoLocation values." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
   <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
             <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
@@ -490,7 +491,7 @@
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm" target="_self">GeoExtensionMethods Methods</a>
 <div class="Hidden">
 <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" target="_self">Contaigns Method </a>
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" target="_self">Contains Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" target="_self">Exists Method </a>
@@ -649,18 +650,7 @@
         <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
         
         <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
-          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
-            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
-              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          
           <!-- Content Starts Here -->
           <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
       <div class="content">
@@ -671,7 +661,7 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Expands the specified locations if there are regions and return the set into it's most detailed option.
+   Expands the specified array of locations, converting any regions within the array into their constituent countries, and returns a comprehensive array of individual GeoLocation values.
    </div>
                 <p />
     <b>Namespace:</b> 
@@ -686,7 +676,50 @@
 <span class="keyword">public</span>:
 <span class="keyword">static</span> <span class="keyword">array</span>&lt;<span class="nolink">GeoLocation</span>^&gt;^ <span class="identifier">Expand</span>(
 	<span class="keyword">array</span>&lt;<span class="nolink">GeoLocation</span>^&gt;^ <span class="parameter">locations</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="locations"><dt><span class="parameterItalic">locations</span></dt><dd>Type: <span class="languageSpecificText"><span class="cpp">array&lt;</span></span><span class="nolink">GeoLocation</span><span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span><br />The locations.</dd></dl></div><h4 class="subHeading">Return Value</h4>GeoLocation[].</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="locations"><dt><span class="parameterItalic">locations</span></dt><dd>Type: <span class="languageSpecificText"><span class="cpp">array&lt;</span></span><span class="nolink">GeoLocation</span><span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span><br />An array of locations that may include both countries and regions.</dd></dl></div><h4 class="subHeading">Return Value</h4>
+   An array of GeoLocation values representing the most detailed geographic entities. If a location is a region, it is expanded into its constituent countries; individual countries are returned as-is.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   This method is particularly useful for operations requiring detailed geographic granularity, such as data analysis, reporting, or user segmentation by country. It ensures that all geographic entities are represented at the country level, facilitating uniformity and precision in geographic-related processing.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a><p>Let's consider a use case where a developer working on an e-commerce platform needs to apply specific shipping rules, tax calculations, or promotional offers based on the customer's geographic location. In this scenario, the platform supports both country-specific and region-wide promotions or rules. However, the challenge arises when regions overlap, potentially leading to the same country being considered more than once for promotions, which can cause discrepancies in the application of rules or offers.<br /><br /><strong>Use Case: Applying Geographic-Specific Promotions Without Duplication</strong><br /><br /><strong>Background</strong>: An e-commerce platform offers special promotions for customers in Latin America and South America. Some promotions are specific to countries, while others apply to entire regions. Given the overlap between these regions (e.g., countries like Brazil are part of both Latin America and South America), there's a risk of applying the same promotion multiple times to customers from overlapping countries.<br /><br /><strong>Challenge</strong>: Ensure that each eligible country within overlapping regions is identified uniquely to apply promotions accurately without duplication, even when regions overlap.</p><p><strong>Solution:</strong> Use the Expand method to convert regional representations into unique, constituent country-level GeoLocations. This approach guarantees that each country is considered only once when determining eligibility for promotions, regardless of regional overlaps.</p><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Applying Geographic-Specific Promotions Without Duplication</div><div class="code"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Walter.BOM.Geo;
+
+   Console.WriteLine(<span class="highlight-literal">"Enter 2 letter country code of a latin america country"</span>);
+   GeoLocationMapping.TryGetValue(Console.ReadLine()?.Trim(),<span class="highlight-keyword">out</span> <span class="highlight-keyword">var</span> choice);
+
+   <span class="highlight-comment">// Sample regions with potential overlap</span>
+   <span class="highlight-keyword">var</span> promotionalRegions = <span class="highlight-keyword">new</span>[] { GeoLocation.LATIN_AMERICA, GeoLocation.SOUTH_AMERICA };
+
+   <span class="highlight-comment">// Expand regions into a unique list of constituent countries</span>
+   <span class="highlight-keyword">var</span> eligibleCountries = promotionalRegions.Expand().Distinct();
+
+   <span class="highlight-comment">// Example function to apply promotions based on country</span>
+   <span class="highlight-keyword">void</span> ApplyPromotions(IEnumerable&lt;GeoLocation&gt; countries)
+   {
+       <span class="highlight-keyword">var</span> color= Console.ForegroundColor;
+       <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> country <span class="highlight-keyword">in</span> countries)
+       {
+           <span class="highlight-comment">// Logic to apply country-specific promotions</span>
+
+           <span class="highlight-keyword">if</span> (country == choice)
+           {
+               Console.ForegroundColor = ConsoleColor.Green;
+               Console.WriteLine(<span class="highlight-literal">"Discount is applicable for {0}"</span>, choice);
+           }
+           <span class="highlight-keyword">else</span>
+           {
+               Console.ForegroundColor = ConsoleColor.Red;
+               Console.WriteLine($<span class="highlight-literal">"Skipping promotions for {country}."</span>);
+           }
+       }
+       Console.ForegroundColor = color;
+   }
+
+   <span class="highlight-comment">// Apply promotions without duplication</span>
+   ApplyPromotions(eligibleCountries);
+
+   <span class="highlight-preprocessor">#if</span> !DEBUG
+   Console.WriteLine(<span class="highlight-literal">"press any key to exit"</span>);
+   Console.ReadKey();
+   <span class="highlight-preprocessor">#endif</span></pre></div></span></div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -695,7 +728,7 @@
         <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter" />
             </div>
             <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>

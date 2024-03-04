@@ -27,9 +27,10 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Will try and get the language of a location for a culture based on the" />
+      <MSHelp:Attr Name="Abstract" Value="Attempts to determine the primary language associated with the culture represented by the provided object." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
+    <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
   <body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
             <div id="TOCDiv" class="TOCDiv" style="width: 310px; float: left; position: relative; ">
@@ -490,7 +491,7 @@
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm" target="_self">GeoExtensionMethods Methods</a>
 <div class="Hidden">
 <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" target="_self">Contaigns Method </a>
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" target="_self">Contains Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" target="_self">Exists Method </a>
@@ -649,18 +650,7 @@
         <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
         
         <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
-          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
-            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
-              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          
           <!-- Content Starts Here -->
           <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
       <div class="content">
@@ -671,7 +661,8 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Will try and get the language of a location for a culture based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.name" target="_blank">Name</a></div>
+   Attempts to determine the primary language associated with the culture represented by the provided <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a> object.
+   </div>
                 <p />
     <b>Namespace:</b> 
    <a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo</a><br />
@@ -685,7 +676,20 @@
 <span class="keyword">public</span>:
 <span class="keyword">static</span> <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a>^ <span class="identifier">GetLanguage</span>(
 	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a>^ <span class="parameter">info</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="info"><dt><span class="parameterItalic">info</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a><br /></dd></dl></div><h4 class="subHeading">Return Value</h4>the language of a culture or the language of the country</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="info"><dt><span class="parameterItalic">info</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a><br />The culture information object, identifying a specific culture or country. The culture is identified using the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.name" target="_blank">Name</a> property, which includes both the language and the country/region.</dd></dl></div><h4 class="subHeading">Return Value</h4>The primary language associated with the specified culture. If the specific culture's primary language cannot be determined, the method attempts to return the official language of the country associated with the culture. If the language still cannot be identified, the method may return a default or an undefined language indicator.</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   This method is useful for applications that need to process or display language-specific content based on the user's cultural context. It leverages the full name of the culture (including both language and region) to ascertain the most appropriate primary language. This can be particularly important in multilingual countries or regions where multiple languages are spoken, but one is predominantly used in cultural or official capacities.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Examples</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="exampleSection"><!----></a>
+   The following example demonstrates how to use the `GetLanguage` method to retrieve the primary language for a specified culture. This can be particularly useful for tailoring application content or functionality to match the user's linguistic preferences.
+  
+  <span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" tabindex="0"></span>Retrieving the Primary Language for a Specific Culture</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Instantiate a CultureInfo object for French as spoken in France</span>
+CultureInfo frenchCultureInfo = <span class="highlight-keyword">new</span> CultureInfo(<span class="highlight-literal">"ch-FR"</span>);
+
+<span class="highlight-comment">// Use the GetLanguage method to determine the primary language</span>
+<span class="highlight-keyword">var</span> primaryLanguage = frenchCultureInfo.GetLanguage();
+
+Console.WriteLine($<span class="highlight-literal">"The primary language for {frenchCultureInfo.Name} is {primaryLanguage}."</span>);</pre></div></span>
+   This sample shows how to identify the primary language from a `CultureInfo` object, which can be used to adapt the user interface or content dynamically based on the user's cultural and linguistic context.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -694,7 +698,7 @@
         <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter" />
             </div>
             <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>

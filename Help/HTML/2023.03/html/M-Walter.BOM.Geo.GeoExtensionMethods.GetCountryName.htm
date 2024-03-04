@@ -23,7 +23,7 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Get the Country Name belonging to a country code" />
+      <MSHelp:Attr Name="Abstract" Value="Retrieves the en-US name of the country associated with the specified value." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
@@ -486,7 +486,7 @@
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm" target="_self">GeoExtensionMethods Methods</a>
 <div class="Hidden">
 <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" target="_self">Contaigns Method </a>
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" target="_self">Contains Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" target="_self">Exists Method </a>
@@ -651,18 +651,7 @@
         <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
         
         <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
-          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
-            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
-              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          
           <!-- Content Starts Here -->
           <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
       <div class="content">
@@ -673,7 +662,7 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Get the Country Name belonging to a country code
+   Retrieves the en-US name of the country associated with the specified <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> value.
    </div>
                 <p />
     <b>Namespace:</b> 
@@ -688,7 +677,16 @@
 <span class="keyword">public</span>:
 <span class="keyword">static</span> <a href="https://docs.microsoft.com/en-us/dotnet/api/system.string" target="_blank">String</a>^ <span class="identifier">GetCountryName</span>(
 	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1" target="_blank">Nullable</a>&lt;<a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a>^&gt; <span class="parameter">location</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="location"><dt><span class="parameterItalic">location</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1" target="_blank">Nullable</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br />The location</dd></dl></div><h4 class="subHeading">Return Value</h4>The country name or "UnKnown" if not provided</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="Overload-Walter.BOM.Geo.GeoExtensionMethods.GetCountryName.htm">GetCountryName Overload</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="location"><dt><span class="parameterItalic">location</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.nullable-1" target="_blank">Nullable</a><span class="languageSpecificText"><span class="cs">&lt;</span><span class="vb">(Of </span><span class="cpp">&lt;</span><span class="nu">(</span><span class="fs">&lt;'</span></span><a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a><span class="languageSpecificText"><span class="cs">&gt;</span><span class="vb">)</span><span class="cpp">&gt;</span><span class="nu">)</span><span class="fs">&gt;</span></span><br />The geographic location enum value for which to obtain the country name. Can be null.</dd></dl></div><h4 class="subHeading">Return Value</h4>
+   A string containing the en-US country name corresponding to the provided <span class="parameterItalic">location</span>.
+   Returns "UnKnown" if the <span class="parameterItalic">location</span> is null or does not correspond to a known country.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   This method is particularly useful for applications requiring the display of country names in the English language,
+   regardless of the user's current culture settings. It translates the <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> enum values into
+   their readable country names in English, facilitating easier identification and presentation of geographic information.
+   This is distinct from the "ToString" method of the enum, which returns the enum's identifier name
+   rather than the user-friendly country name.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="Overload-Walter.BOM.Geo.GeoExtensionMethods.GetCountryName.htm">GetCountryName Overload</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -697,7 +695,7 @@
         <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter" />
             </div>
             <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>

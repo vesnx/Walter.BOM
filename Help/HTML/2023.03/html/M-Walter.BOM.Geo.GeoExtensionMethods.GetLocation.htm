@@ -27,7 +27,7 @@
       <MSHelp:Attr Name="Locale" Value="en-us" />
       <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
       <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Will try and get the location for a culture based on the" />
+      <MSHelp:Attr Name="Abstract" Value="Retrieves the geographic location associated with a specified object, utilizing its two-letter ISO language name." />
       <MSHelp:Attr Name="AssemblyVersion" Value="" />
     </xml>
   <link rel="stylesheet" href="../TOC.css"><script type="text/javascript" src="../TOC.js"></script></head>
@@ -490,7 +490,7 @@
 <img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="../Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="Methods.T-Walter.BOM.Geo.GeoExtensionMethods.htm" target="_self">GeoExtensionMethods Methods</a>
 <div class="Hidden">
 <div class="TreeItem">
-<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contaigns.htm" target="_self">Contaigns Method </a>
+<img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Contains.htm" target="_self">Contains Method </a>
 </div>
 <div class="TreeItem">
 <img src="../Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="M-Walter.BOM.Geo.GeoExtensionMethods.Exists.htm" target="_self">Exists Method </a>
@@ -649,18 +649,7 @@
         <div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
         
         <div id ="TopicContent" name="TopicContent" class="TopicContent" style="float: none; margin-left: 312px;height: -webkit-fill-available;display:block;overflow: auto;">
-          <div class="header" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-      <table class="headerBar cl_lightweight_topnav_slice" border="0" cellpadding="0" cellspacing="0">
-        <tbody>
-          <tr>
-            <td class="leftSection cl_lightweight_header_leftSection_wave leftSectionImageClusterOverride" />
-            <td class="rightSection cl_lightweight_header_rightSection_wave rightSectionImageClusterOverride">
-              <div class="tabContainer">WALTER | Workable Algorithms for Location-aware Transmission, Encryption Response</div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+          
           <!-- Content Starts Here -->
           <div class="contentPlaceHolder" xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
       <div class="content">
@@ -671,7 +660,8 @@
             <div id="mainSection">
               <div id="mainBody">
                 <div class="summary">
-   Will try and get the location for a culture based on the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.twoletterisolanguagename" target="_blank">TwoLetterISOLanguageName</a></div>
+   Retrieves the geographic location associated with a specified <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a> object, utilizing its two-letter ISO language name.
+   </div>
                 <p />
     <b>Namespace:</b> 
    <a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo</a><br />
@@ -685,7 +675,11 @@
 <span class="keyword">public</span>:
 <span class="keyword">static</span> <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a>^ <span class="identifier">GetLocation</span>(
 	<a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a>^ <span class="parameter">info</span>
-)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="info"><dt><span class="parameterItalic">info</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a><br />The culture</dd></dl></div><h4 class="subHeading">Return Value</h4>The location or <a href="F-Walter.BOM.Geo.GeoLocation.UnKnown.htm">UnKnown</a> if failed</div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
+)</pre></div></div></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="info"><dt><span class="parameterItalic">info</span></dt><dd>Type: <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo" target="_blank">CultureInfo</a><br />The culture information object from which to derive the geographic location.</dd></dl></div><h4 class="subHeading">Return Value</h4>
+   The <a href="T-Walter.BOM.Geo.GeoLocation.htm">GeoLocation</a> corresponding to the culture specified by <span class="parameterItalic">info</span>. If the location cannot be determined, returns <a href="F-Walter.BOM.Geo.GeoLocation.UnKnown.htm">UnKnown</a>.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">Remarks</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="remarksSection"><!----></a>
+   This method attempts to map a culture to its geographic location, which can be particularly useful for localizing content or tailoring application behavior based on cultural settings. It leverages the two-letter ISO language name provided by the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.twoletterisolanguagename" target="_blank">TwoLetterISOLanguageName</a> property as a key for this mapping. In cases where a direct mapping is not available or the culture is not associated with a specific geographic location, the method defaults to returning <a href="F-Walter.BOM.Geo.GeoLocation.UnKnown.htm">UnKnown</a>.
+   </div><div class="LW_CollapsibleArea_Container"><div class="LW_CollapsibleArea_TitleDiv"><h2 class="LW_CollapsibleArea_Title">See Also</h2><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div><a id="seeAlsoSection"><!----></a><div class="seeAlsoStyle"><a href="T-Walter.BOM.Geo.GeoExtensionMethods.htm">GeoExtensionMethods Class</a></div><div class="seeAlsoStyle"><a href="N-Walter.BOM.Geo.htm">Walter.BOM.Geo Namespace</a></div></div></div>
             </div>
           </div>
         </div>
@@ -694,7 +688,7 @@
         <div id="footer" class="footerContainer" style="border-top-width:0px;">
           <div class="footerLogoContainer">
             <div style="margin-top:5px">
-              <span class="customCopyrightFooter">© 2019 -2024 Walter Verhoeven, Lambert Snellinx, all rights reserved</span>
+              <span class="customCopyrightFooter" />
             </div>
             <div style="margin-top:5px" class="copyrightFooter" />
             <div> </div>
