@@ -1,5 +1,5 @@
 ﻿// ***********************************************************************
-// Assembly         : 
+// Assembly         : NotImplementedByDesign
 // Author           : Walter Verhoeven
 // Created          : Sun 03-Mar-2024
 //
@@ -11,27 +11,12 @@
 // </copyright>
 // <summary>
 // shows the use of NotImplementedByDesignException in AoT compatible mode
-// with the library being trimmed and published using AoT 
+// with the library being trimmed and published using AoT
 // </summary>
 // ***********************************************************************
 using System.Net;
 
 using Walter.BOM;
-public class NetworkService
-{
-    public void CheckIPAddressSupport(IPAddress ipAddress)
-    {
-        if (ipAddress.AddressFamily == System.Net.Sockets.AddressFamily.InterNetworkV6)
-        {
-            // IPv6 is found to be out of scope for the current release
-            throw new NotImplementedByDesignException("IPv6 support is out of scope for the current release.");
-        }
-        else
-        {
-            Console.WriteLine("IPv4 address is supported.");
-        }
-    }
-}
 
 // Usage example
 class Program
@@ -39,7 +24,6 @@ class Program
     static void Main(string[] args)
     {
 
-        using var serice= 
 
         var color= Console.ForegroundColor;
         var networkService = new NetworkService();

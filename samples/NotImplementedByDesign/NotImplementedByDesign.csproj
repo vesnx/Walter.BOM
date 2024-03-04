@@ -9,7 +9,7 @@
 		<InvariantGlobalization>true</InvariantGlobalization>
 		<Authors>Walter Verhoeven, Lambert Snellinx</Authors>
 		<Company>VESNX SA</Company>
-		<Product>Business objects for FRamwork products</Product>
+		<Product>Business objects for Framwork products</Product>
 		<Copyright>©2024 VESNX SA, all rights reserved.</Copyright>		
 		<Title>Business objects used by several ASP-WAF products</Title>
 		<Description>This package uses the Walter.BOM nuget package:; fel free to copy any code for your products.			
@@ -18,7 +18,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Walter.BOM" Version="2024.3.3.842" />
+		<PackageReference Include="Walter.BOM" Version="2024.3.4.1549" />
 	</ItemGroup>
 
 </Project>

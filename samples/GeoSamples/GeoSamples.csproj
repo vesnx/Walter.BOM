@@ -14,13 +14,9 @@
 		<Title>Business objects used by several ASP-WAF products</Title>
 		<Description>
 			This package uses the Walter.BOM nuget package:; fel free to copy any code for your products.
-		</Description>		
+		</Description>
 	</PropertyGroup>
-
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
 		<PackageReference Include="Walter.BOM" Version="2024.3.4.1549" />
 	</ItemGroup>
-
 </Project>
